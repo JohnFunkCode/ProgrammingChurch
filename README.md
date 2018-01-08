@@ -7,12 +7,12 @@ For these lessons we will rely on core material from the following online classe
 * [Packt Beginning Python Video](https://www.packtpub.com/application-development/beginning-python-video) This one is more programmer centric
 
 ***
-## January 1st class
+## January 1st session
 In this class we'll review your installation of Anaconda and PyCharm.  And do some simple things with Jupyter notebook.
 #### Prerequisites
 Sections 1 - 3 of the Udemy Complete Python Programming Course
 ***
-## January 7th class
+## January 7th session
 In this class we're going to review user input, dictionaries, and introduce for loops.
 #### Prerequisites
 Sections 4 and 5 of the Udemy Complete Python Programming Course
@@ -22,7 +22,7 @@ Sections 4 and 5 of the Udemy Complete Python Programming Course
 * The stand alone code is available in the src folder of this repo at: [wordcount.py](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/src/wordcount/wordcount.py)
 
 ***
-## January 15th class
+## January 15th session
 In this class we're going to begin our discussions about functions and packages
 #### Prerequisites
 * Sections 6 and 7 of the Udemy Complete Python Programming course
