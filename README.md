@@ -2,7 +2,7 @@
 This repo contains a bunch of lesson to help my nieces learn Python
 
 ## Tools used:
-For these lessons we will rely on core material from the following online sessiones:
+For these lessons we will rely on core material from the following online material:
 * [Udemy Complete Pything Programming Course]( https://www.udemy.com/complete-python-programming-course-beginner-to-advanced/learn/v4/overview) I like this one because it starts people out using Jupyter notebook
 * [Packt Beginning Python Video](https://www.packtpub.com/application-development/beginning-python-video) This one is more programmer centric
 
