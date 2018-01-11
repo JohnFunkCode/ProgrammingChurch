@@ -11,17 +11,28 @@ def wordcount(userwords):
             wordcount[word] = 1
     return wordcount
 
-def inanotinb(da, db):
-    anotb = list()
-    keysa=da.keys()
-    keysb=db.keys()
+def a_union_b(a,b):
+    union = list()
+    keysa=a.keys()
+    keysb=b.keys()
+    for word in keysa:
+        if word in keysb:
+#            print("found :" + word)
+            union.append(word)
+    return union
+
+
+def in_a_not_in_b(a, b):
+    a_not_b = list()
+    keysa=a.keys()
+    keysb=b.keys()
     for word in keysa:
         if word not in keysb:
 #            print("count not find :" + word)
-            anotb.append(word)
+            a_not_b.append(word)
 #        else:
 #            print("found :" + word)
-    return anotb
+    return a_not_b
 
 def main():
     #One Word Tests
@@ -36,11 +47,15 @@ def main():
     assert d2["two"]==1
     assert d2["three"]==1
 
-    #test that inanotinb of "one", "one" return an empty set
-    assert inanotinb(d1,d1)==[]
+    #test that a_union_b(['one','two','three'],['one']) returns 'one'
+    u=ta.a_union_b(d1,d2)
+    assert(u==['one'])
 
-    #test that inanotinb of ['one','two','three'],['one'] returns a set with both 'two' and 'three' in it
-    l=inanotinb(d2,d1)
+    #test that in_a_not_in_b of "one", "one" return an empty set
+    assert in_a_not_in_b(d1,d1)==[]
+
+    #test that in_a_not_in_b of ['one','two','three'],['one'] returns a set with both 'two' and 'three' in it
+    l=in_a_not_in_b(d2,d1)
     assert("two" in l)
     assert("three" in l)
 
