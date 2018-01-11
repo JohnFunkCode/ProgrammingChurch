@@ -18,7 +18,7 @@ In this session we're going to review user input, dictionaries, and introduce fo
 Sections 4 and 5 of the Udemy Complete Python Programming Course
 
 #### Exercises
-* The exercises for the session can be found in this the lessons folder of this repo at: [Jupyter Notebook]( niece-python-lessons/Jan 7 - word count lesson.ipynb )
+* The exercises for the session can be found in this the lessons folder of this repo at: [Jupyter Notebook]( (https://github.com/JohnFunkCode/niece-python-lessons/blob/dev/niece-python-lessons/Jan 7 - word count lesson.ipynb  )
 * The stand alone code is available in the src folder of this repo at: [wordcount.py](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/src/wordcount/wordcount.py)
 
 ***
