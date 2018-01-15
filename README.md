@@ -22,9 +22,12 @@ Sections 4 and 5 of the Udemy Complete Python Programming Course
 * The stand alone code is available in the src folder of this repo at: [wordcount.py](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/src/wordcount/wordcount.py)
 
 ***
-## January 15th session
-In this session we're going to begin our discussions about functions and packages
+## January 15th session - Loops, Functions and Modules
+In this session we're going to begin our discussions about functions and modules
 #### Prerequisites
 * Sections 6 and 7 of the Udemy Complete Python Programming course
 * Section 6 and 7 of the Packt Beginning Python Video course
 * Review sections 1-5 of the Packt Beginning Python Video course - most of this will be a review of material from the Udemy course
+
+#### Exercises
+* The exercises for the session can be found in this repo at: [Text Analytics Functions.ipynb](https://github.com/JohnFunkCode/niece-python-lessons/blob/dev/Text%20Analytics%20Functions.ipynb)
