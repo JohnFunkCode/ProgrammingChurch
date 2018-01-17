@@ -30,4 +30,4 @@ In this session we're going to begin our discussions about functions and modules
 * Review sections 1-5 of the Packt Beginning Python Video course - most of this will be a review of material from the Udemy course
 
 #### Exercises
-* The exercises for the session can be found in this repo at: [Text Analytics Functions.ipynb](https://github.com/JohnFunkCode/niece-python-lessons/blob/dev/Text%20Analytics%20Functions.ipynb)
+* The exercises for the session can be found in this repo at: [Text Analytics Functions.ipynb](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/January%2015%20-%20Loops%20Functions%20Modules%20.ipynb)
