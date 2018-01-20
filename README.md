@@ -31,3 +31,13 @@ In this session we're going to begin our discussions about functions and modules
 
 #### Exercises
 * The exercises for the session can be found in this repo at: [Text Analytics Functions.ipynb](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/January%2015%20-%20Loops%20Functions%20Modules%20.ipynb)
+
+***
+## January 20th Session - Using other peoples code 
+Kids now days don't understand how lucky they are to have such broad collection of third party code to work with.  You can find a library of code someone else has written to do just about anything you can imagine now days.  In this session we're going to learn how to use add-on packages in Python.  
+
+* Read about using Python packages by reading the two following articles
+  * [Python Package Tutorial](https://packaging.python.org/tutorials/installing-packages/)
+  * [Python Package Documentation](https://docs.python.org/3/installing/index.html)
+* Read about the [Python Standard Libraries](https://docs.python.org/3/library/index.html)  Don't worry about memorizing all of them or learning how to use all of them, for now just get familar with what's available.  Also pick one or two you want to explore.
+* Read about [Matplotlib](https://matplotlib.org/)  Again don't worry about learning how to use all of Matplot, just get familar with what's available.   We'll start to explore it with some labs.
