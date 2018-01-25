@@ -1,4 +1,4 @@
-# Raspberry Pi Starter Kit
+# Raspberry PI Starter Kit
 ## Start here, you can always buy more as you learn what you want to do with it.
 
 [Get a basic CanaKit $40](
