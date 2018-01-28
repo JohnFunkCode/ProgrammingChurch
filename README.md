@@ -44,4 +44,8 @@ Kids now days don't understand how lucky they are to have such broad collection 
 * Read about [Matplotlib](https://matplotlib.org/)  Again don't worry about learning how to use all of Matplot, just get familar with what's available.   We'll start to explore it with some labs.
 
 #### Exercises
-Our main exercise for this session will build on our text analytics theme.  We'll move away from simple user input and instead get the text for our analysis from files using capabilites of the python standar libraries.  We'll also plot the results of our analysis on a graph using Matplotlib.
+We'll start the day learning how to plot the results of our analysis on a graph using Matplotlib.
+Then our main exercise for this session will build on our text analytics theme.
+We'll move away from simple user input and instead get the text for our analysis from files using capabilites of the python standar libraries.  
+* Our first exercise is to learn to use Matplotlib the exercise for that is [Jan 28 - Matt Plot Experimentation.ipynb](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/Jan%2028%20-%20Matt%20Plot%20Experimentation.ipynb)
+* Our second exercise using text analytics is in [Jan 28 - File Reading Experiements.ipynb](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/Jan%2028%20-%20File%20Reading%20Experiements.ipynb)
