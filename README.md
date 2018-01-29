@@ -56,7 +56,7 @@ We'll move away from simple user input and instead get the text for our analysis
 We've been learning the core of the Python language for a month now.  Let's change it up and have some fun and build our first Raspberry Pi project.
 
 #### Prerequisites
-* Get a Raspberry [Pi starter kit](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/RaspberryPIStarterKit.md)
+* Get a [Raspberry Pi starter kit](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/RaspberryPIStarterKit.md)
 * Read the [Packt Python Programming with Raspberry Pi](https://www.packtpub.com/hardware-and-creative/python-programming-raspberry-pi) book.  (or at least as much of it as you can)
 * Download the GitHub for Windows website, at http://windows.github.com.  After installing GitHub for Windows - reboot your system.   Then open a command window and type *git* and you should see a list of github options.
 
