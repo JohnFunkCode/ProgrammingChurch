@@ -55,9 +55,27 @@ We'll move away from simple user input and instead get the text for our analysis
 ## February 4th Session - It's time for Pi
 We've been learning the core of the Python language for a month now.  Let's change it up and have some fun and build our first Raspberry Pi project.
 
-#### Prerequisites
+### Prerequisites
 * Get a [Raspberry Pi starter kit](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/RaspberryPIStarterKit.md)
 * Read the [Packt Python Programming with Raspberry Pi](https://www.packtpub.com/hardware-and-creative/python-programming-raspberry-pi) book.  (or at least as much of it as you can)
 * Download the GitHub for Windows website, at http://windows.github.com.  After installing GitHub for Windows - reboot your system.   Then open a command window and type *git* and you should see a list of github options.
 * Read the [GitHub Tutoral](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
+### Exercises
+#### Exercise 1 - Get your Raspberry Pi running
+
+#### Exercise 2 - VNC to your Raspberry Pi
+
+#### Exercise 3 - Sharing Code with your Raspberry Pi via Github
+* Create a new repository with a very simple README stating this is your first Raspberry Pi project.
+* On your laptop use git clone to clone your new repository into your code directory.
+* Using Atom or Pycharm create a simple Python program that prints the digits 1 - 10
+* Commit those changes and push them back to the repo
+* On your raspberry pi clone your new repository into a directory called code
+
+#### Exercise 4 - built a circuit to connect a LED to a GPIO Pin
+
+#### Exercise 1 - Writing to the GPIO pins of your Raspberry PI
+* fork my repository at xxxxxxxxxxxxxxxxx if you need help see: https://help.github.com/articles/fork-a-repo/
+* clone your repository to laptop
+* change the code to make it blink the LED 10 times in a loop
