@@ -58,6 +58,6 @@ We've been learning the core of the Python language for a month now.  Let's chan
 #### Prerequisites
 * Get a [Raspberry Pi starter kit](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/RaspberryPIStarterKit.md)
 * Read the [Packt Python Programming with Raspberry Pi](https://www.packtpub.com/hardware-and-creative/python-programming-raspberry-pi) book.  (or at least as much of it as you can)
-* Download the GitHub for Windows website, at http://windows.github.com.  After installing GitHub for Windows - reboot your system.   Then open a command window and type *git* and you should see a list of github options.
-* Read the [GitHub Tutoral](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+* Download [GitHub for Windows](git@github.com:xacaxulu/niece-python-lessons.git).  After installing GitHub for Windows - reboot your system.   Then open a command window and type *git* and you should see a list of github options.
+* Read the [GitHub Tutorial](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
