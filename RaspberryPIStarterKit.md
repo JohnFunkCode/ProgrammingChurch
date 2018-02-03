@@ -7,9 +7,13 @@ https://www.amazon.com/CanaKit-Raspberry-Micro-Supply-Listed/dp/B01C6FFNY4/ref=s
 [Get a Samsung 32GB 95MB/s (U1) MicroSD EVO Select Memory Card with Adapter (MB-ME32GA/AM)](
 https://www.amazon.com/gp/product/B06XWN9Q99/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 )
 
+If you want some electronic parts get the $35 [SunFounder Project Superkit](
+https://www.amazon.com/gp/product/B00P2E9W30/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1)
+
+##### I actually like the following parts better, but they ship from China so they take a bit longer to get
 [Get a Kaman GPIO Breakout Kit $5](
 http://www.kumantech.com/kuman-raspberry-pi-rpi-gpio-breakout-expansion-kit-k80_p0404.html)
 
-[If you want some electronic parts get the $12 Kaman Kit](
+If you want some electronic parts get the [$12 Kaman Kit](
 http://www.kumantech.com/kuman-basic-starter-kit-with-switch-color-led-lcd-modulebreadboardresistorsrotary-potentiometer-for-arduino-uno-r3-mega2560-mega328-nano-k64_p0030.html)
 

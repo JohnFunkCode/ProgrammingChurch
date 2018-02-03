@@ -63,8 +63,14 @@ We've been learning the core of the Python language for a month now.  Let's chan
 
 ### Exercises
 #### Exercise 1 - Get your Raspberry Pi running
+* If you haven't already, we'll format your memory card and load NOOBS.  Follow the instructions in the [How to get NOOBS tutorial](
+https://www.raspberrypi.org/documentation/installation/noobs.md)
 
 #### Exercise 2 - VNC to your Raspberry Pi
+The next thing you need is to be able to remotely control your Raspberry Pi from your laptop.
+* To do that you need to install VNC on both your latptop and your Raspberry Pi.
+Follow the step in [Raspberry Pi VNC Tutorial](https://www.raspberrypi.org/documentation/remote-access/vnc/)
+* Install [Real VNC Viewer on Windows](https://www.realvnc.com/en/connect/download/viewer/windows/)
 
 #### Exercise 3 - Sharing Code with your Raspberry Pi via Github
 * Create a new repository with a very simple README stating this is your first Raspberry Pi project.
@@ -74,8 +80,12 @@ We've been learning the core of the Python language for a month now.  Let's chan
 * On your raspberry pi clone your new repository into a directory called code
 
 #### Exercise 4 - built a circuit to connect a LED to a GPIO Pin
+There is a great tutorial on this at [ThePiHut](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins)
+Don't worry much about the code, we'll get the code in the next exercise
 
-#### Exercise 1 - Writing to the GPIO pins of your Raspberry PI
-* fork my repository at xxxxxxxxxxxxxxxxx if you need help see: https://help.github.com/articles/fork-a-repo/
+#### Exercise 1 - Code to Control the GPIO pins of your Raspberry PI
+* We will be using the Gpiozero library for all of our code.  They have a great [documentation and recipies site](https://gpiozero.readthedocs.io/en/stable/)
+* fork my repository at https://github.com/JohnFunkCode/RaspberryPiTutorial-1 if you need help see: https://help.github.com/articles/fork-a-repo/
 * clone your repository to laptop
-* change the code to make it blink the LED 10 times in a loop
+* change the code to make it blink the LED 10 times in a for loop
+* push it back to github and clone it down to your Raspberry Pi
