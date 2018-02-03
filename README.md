@@ -7,12 +7,13 @@ For these lessons we will rely on core material from the following online materi
 * [Packt Beginning Python Video](https://www.packtpub.com/application-development/beginning-python-video) This one is more programmer centric
 
 ***
-## January 1st session
+## January 1st session - Getting Started with Jupyter Notebook
 In this session we'll review your installation of Anaconda and PyCharm.  And do some simple things with Jupyter notebook.
+Jupyter notebook will be familar to you from your MATLAB experience from your engineering courses.
 #### Prerequisites
 Sections 1 - 3 of the Udemy Complete Python Programming Course
 ***
-## January 7th session
+## January 7th session - User Input, Dictionaries
 In this session we're going to review user input, dictionaries, and introduce for loops.
 #### Prerequisites
 Sections 4 and 5 of the Udemy Complete Python Programming Course
