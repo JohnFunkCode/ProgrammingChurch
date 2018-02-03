@@ -84,9 +84,16 @@ Follow the step in [Raspberry Pi VNC Tutorial](https://www.raspberrypi.org/docum
 There is a great tutorial on this at [ThePiHut](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins)
 Don't worry much about the code, we'll get the code in the next exercise
 
-#### Exercise 1 - Code to Control the GPIO pins of your Raspberry PI
+#### Exercise 5 - Code to Control the GPIO pins of your Raspberry PI
 * We will be using the Gpiozero library for all of our code.  They have a great [documentation and recipies site](https://gpiozero.readthedocs.io/en/stable/)
 * fork my repository at https://github.com/JohnFunkCode/RaspberryPiTutorial-1 if you need help see: https://help.github.com/articles/fork-a-repo/
 * clone your repository to laptop
 * change the code to make it blink the LED 10 times in a for loop
 * push it back to github and clone it down to your Raspberry Pi
+
+#### Exercise 6 - Extra Credit - More advanced interactions with Rasberry Pi
+Using VNC to remote to the Rasberry Pi is easy and it gives you a lot of functionality.  Pulling Code from Github is also a very good practice and it allows you to use more powerful tools on your laptop in your development.  But you should also know the quick and dirty ways to interact with the Rasberry Pi.  The fastest way to get access to these tools is to install Ubuntu Linix on you Windows 10 laptop.  This sounds complicated, but in the Windows 10 Fall Creators update Microsoft made it really easy.  Just follow the steps on the [Developer's Tidbits blog](https://devtidbits.com/2017/11/09/ubuntu-linux-on-windows-10-how-to/)
+
+One you have it open you can learn to use a few unix tools to interact with your Raspberry Pi
+* SSH - SSH allows you to open a remote terminal session to your Raspberry Pi - Here is a good [tutorial](https://www.raspberrypi.org/magpi/ssh-remote-control-raspberry-pi/)
+* SCP - SCP allows you to directly copy files to and from your Raspberry Pi - Here is a good [tutorial](https://www.raspberrypi.org/documentation/remote-access/ssh/scp.md)
