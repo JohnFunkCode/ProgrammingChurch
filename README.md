@@ -55,9 +55,37 @@ We'll move away from simple user input and instead get the text for our analysis
 ## February 4th Session - It's time for Pi
 We've been learning the core of the Python language for a month now.  Let's change it up and have some fun and build our first Raspberry Pi project.
 
-#### Prerequisites
+### Prerequisites
 * Get a [Raspberry Pi starter kit](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/RaspberryPIStarterKit.md)
 * Read the [Packt Python Programming with Raspberry Pi](https://www.packtpub.com/hardware-and-creative/python-programming-raspberry-pi) book.  (or at least as much of it as you can)
 * Download the GitHub for Windows website, at http://windows.github.com.  After installing GitHub for Windows - reboot your system.   Then open a command window and type *git* and you should see a list of github options.
 * Read the [GitHub Tutoral](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
+### Exercises
+#### Exercise 1 - Get your Raspberry Pi running
+* If you haven't already, we'll format your memory card and load NOOBS.  Follow the instructions in the [How to get NOOBS tutorial](
+https://www.raspberrypi.org/documentation/installation/noobs.md)
+
+#### Exercise 2 - VNC to your Raspberry Pi
+The next thing you need is to be able to remotely control your Raspberry Pi from your laptop.
+* To do that you need to install VNC on both your latptop and your Raspberry Pi.
+Follow the step in [Raspberry Pi VNC Tutorial](https://www.raspberrypi.org/documentation/remote-access/vnc/)
+* Install [Real VNC Viewer on Windows](https://www.realvnc.com/en/connect/download/viewer/windows/)
+
+#### Exercise 3 - Sharing Code with your Raspberry Pi via Github
+* Create a new repository with a very simple README stating this is your first Raspberry Pi project.
+* On your laptop use git clone to clone your new repository into your code directory.
+* Using Atom or Pycharm create a simple Python program that prints the digits 1 - 10
+* Commit those changes and push them back to the repo
+* On your raspberry pi clone your new repository into a directory called code
+
+#### Exercise 4 - built a circuit to connect a LED to a GPIO Pin
+There is a great tutorial on this at [ThePiHut](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins)
+Don't worry much about the code, we'll get the code in the next exercise
+
+#### Exercise 1 - Code to Control the GPIO pins of your Raspberry PI
+* We will be using the Gpiozero library for all of our code.  They have a great [documentation and recipies site](https://gpiozero.readthedocs.io/en/stable/)
+* fork my repository at https://github.com/JohnFunkCode/RaspberryPiTutorial-1 if you need help see: https://help.github.com/articles/fork-a-repo/
+* clone your repository to laptop
+* change the code to make it blink the LED 10 times in a for loop
+* push it back to github and clone it down to your Raspberry Pi
