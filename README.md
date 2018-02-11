@@ -97,3 +97,24 @@ Using VNC to remote to the Rasberry Pi is easy and it gives you a lot of functio
 One you have it open you can learn to use a few unix tools to interact with your Raspberry Pi
 * SSH - SSH allows you to open a remote terminal session to your Raspberry Pi - Here is a good [tutorial](https://www.raspberrypi.org/magpi/ssh-remote-control-raspberry-pi/)
 * SCP - SCP allows you to directly copy files to and from your Raspberry Pi - Here is a good [tutorial](https://www.raspberrypi.org/documentation/remote-access/ssh/scp.md)
+
+***
+## February 11th Session - Simple Components with Raspberry Pi
+Now that we got the Raspberry Pi's running and know how to get code on them via Github we're going to continue
+last week's exercises to build some simple circuits and write a bunch of code on the Raspberry.
+
+#### Exercise 1
+Build a circuit to connect an LED to a GPIO pin and write some code to make it blink.   Look back at Excercise 4 from 
+last week for more details
+
+#### Exercise 2
+Build a circuit to connect a bunch of LEDs to GPIO pins and write some code to make them race up and down.  Example code for this
+is in src/gpiozero-racingLED.py
+
+#### Excercise 3
+Play with Pulse Width Modulation to vary the duty cycle you put on your LEDs to make them glow etc.  Example code for this 
+is in src/gpiozero-pwmLED.py
+
+#### Excercise 4
+Add some buttons to your LED circuit and write some code to do things with them.   I suggest first just making sure your buttons
+work, then make them start your string of LEDs racing.   Example code for this is in src/gpizero-buttons.py
