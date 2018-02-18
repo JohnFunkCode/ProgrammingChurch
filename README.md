@@ -130,6 +130,9 @@ We are also going to step up our game and start working with Pycharm which is a 
 
 Another handy reference you'll need is the [W3Schools](https://www.w3schools.com/) HTML web development site.
 
+#### Solutions
+My solutions for these exercises are in my [flask-textanalytics repo](https://github.com/JohnFunkCode/flask-textanalytics)
+
 #### Exercise 1 - building your first flask application
 Using Pycharm we're going to create a new project and build a very simple flask app.  I like the folder structure Santiago uses to organize his work in the Udemy [Flask Tutorial Step by Step](https://www.udemy.com/python-flask-tutorial-step-by-step/learn/v4/content), so we'll mimic it.
 * First create a new repo named **flask-textanalytics** in github.  Make sure to select everything at the bottom to create python get ignor, and an MIT licences, and generate a README.md file.  Clone this project into your code directory on your computer.
