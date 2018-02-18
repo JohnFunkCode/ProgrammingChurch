@@ -118,3 +118,18 @@ is in src/gpiozero-pwmLED.py
 #### Excercise 4
 Add some buttons to your LED circuit and write some code to do things with them.   I suggest first just making sure your buttons
 work, then make them start your string of LEDs racing.   Example code for this is in src/gpizero-buttons.py
+
+***
+## February 17th Session - Creating Web UI with Flask - Part 1
+After taking a brief side trip to explore building circuites and programming hardware with our Raspberry Pi's its time to get back to more code.  This week we're going to begin creating web UI's in python so our code can be more interactive.  There are a lot of new concepts for you to learn so this will most likely take a few sessions.
+
+Homework Assignment:
+To get an understanding of where we're going listen to the entire [Flask Tutorial Step by Step](https://www.udemy.com/python-flask-tutorial-step-by-step/learn/v4/content) course on Udemy.  This first time through, don't try to do any of the lectures, I just want you to get a broad understanding of what the Flask framework does so we can work through it piece by piece. 
+
+We are also going to step up our game and start working with Pycharm which is a more professional integrated development environment (IDE).  Please review the [Pycharm Quick Start Guide](https://www.jetbrains.com/help/pycharm/quick-start-guide.html)
+
+Another handy reference you'll need is the [W3Schools](https://www.w3schools.com/) HTML web development site.
+
+#### Exercise 1 - building your first flask application
+Using Pycharm we're going to create a new project and build a very simple flask app.  I like the folder structure Santiago uses to organize his work in the Udemy [Flask Tutorial Step by Step](https://www.udemy.com/python-flask-tutorial-step-by-step/learn/v4/content), so we'll mimic it.
+* First create a new project in Pycharm - put in in your code directory in a directory called **flask-textanalytics**
