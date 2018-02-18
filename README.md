@@ -133,3 +133,24 @@ Another handy reference you'll need is the [W3Schools](https://www.w3schools.com
 #### Exercise 1 - building your first flask application
 Using Pycharm we're going to create a new project and build a very simple flask app.  I like the folder structure Santiago uses to organize his work in the Udemy [Flask Tutorial Step by Step](https://www.udemy.com/python-flask-tutorial-step-by-step/learn/v4/content), so we'll mimic it.
 * First create a new project in Pycharm - put in in your code directory in a directory called **flask-textanalytics**
+* Create a Python file for the main driver of your flask applicaton in the root of the project following the pattern of [Flask Tutorial Step by Step - Section 3](https://github.com/rmotr/flask-introduction/blob/master/flask_introduction/run_app.py)
+* Create a libraries module in your application to house the code of the application.  In the library module create a python file with a route that handles the url route "/" by simply returning a string saying "hello world"
+
+#### Exercise 2 - rendering an html template
+In this exercise we'll extend what you've built so far to setup a simple flask template and pass it a variable to include in the information it outputs.
+* Add the a route to handle the "/test" route with a function that calls render_template to render a file called index.html
+* create a file called index.html in the templates directory
+* pass a variable with a string containing your name in it to the template and have it include your name someone in the body of the data returned.
+
+#### Exercise 3 - Rendering a form and displaying the user's input
+In this exercise we'll extend what you've built so far to render an html form to gather two strings from the user.   When the user posts that data, we'll render another template to display the two string.
+* Add a route to handle the "/textanalytics" route with a function that renders either a form, or an html document with results depending on if it gets a GET or a POST method.
+* Add two html documents to your templates directory one called "textanalytics_form.html" with an input form in it, and one called "textanalytics_form_results.html" to display the two strings gathered by the form.
+
+#### Exercise 4 - Hook up your text analytics funcitons from a few weeks ago
+In this exercise we'll use the text anlytics module you wrote a few weeks ago to calculate the words in common between the two strings the user inputs into the web forms from the previous exercise.
+* Copy your text analytics code into a directory called model in your library directory
+* Call you text analytics union method from the "POST" method of your function that handle the "/textanalytics" route and pass the results to the render template code that displays your textanalytics_form_results template.
+* Add code into your template to display the dictionary returned by your textanalytics.union() function.
+
+
