@@ -117,7 +117,8 @@ is in src/gpiozero-pwmLED.py
 
 #### Excercise 4
 Add some buttons to your LED circuit and write some code to do things with them.   I suggest first just making sure your buttons
-work, then make them start your string of LEDs racing.   Example code for this is in src/gpizero-buttons.py
+work, then make them start your string of LEDs racing.   Example code for this is in **src/gpizero-buttons.py**
+(hint - use the GPIOZero button.whenpressed() method.  There is a great example in the (GPIOZero Recipies)[http://gpiozero.readthedocs.io/en/stable/recipes.html)
 
 ***
 ## February 17th Session - Creating Web UI with Flask - Part 1
@@ -161,3 +162,12 @@ In this exercise we'll use the text anlytics module you wrote a few weeks ago to
 * Add code into your template to display the dictionary returned by your textanalytics.union() function.
 * once the code is working check it into Github
 
+***
+## February 25th Session - Playing with WebUI's
+Ok, you're on your own this week so it's your chance to get creative playing with building simple web UI's.
+Here are some of my suggestions
+* Build variations on your text analytics code.   We've surfaced the Union function, but how about the other funcitons?
+* Dress your templates up a bit with fancier HTML. There is a great HTML Tutorial at (w3schools.com)(https://www.w3schools.com/html/]  Megan knows HTML pretty well, see if you can make one of your templates look presentable.
+* Build a UI for your racing lights on your rasberry pi.  There is endless combinations you can build:
+** Make the lights race up, or down 
+** Show the user a bunch of radio buttons and let them choose what LED to light up, or even use a pulldown menue to let them choose to make it light solid, blink, or even make it glow using the [Pulse Width Modulation PMWLED methods](http://gpiozero.readthedocs.io/en/stable/recipes.html#led-with-variable-brightness)
