@@ -173,7 +173,7 @@ Here are some of my suggestions:
 * Dress your templates up a bit with fancier HTML. Megan knows HTML pretty well, and there is a great HTML Tutorial at [w3schools.com](https://www.w3schools.com/html/).  See if you can make one of your templates look presentable.
 * Build a UI for your racing lights on your rasberry pi.  There is endless combinations you can build:
     - Make the lights race up, or down 
-    - Show the user a bunch of radio buttons and let them choose what LED to light up, or even use a pulldown menue to let them choose to make it light solid, blink, or even make it glow using the [Pulse Width Modulation PMWLED methods](http://gpiozero.readthedocs.io/en/stable/recipes.html#led-with-variable-brightness)
+    - Show the user a bunch of radio buttons and let them choose what LED to light up, or even use a pulldown menu to let them choose to make it light solid, blink, or even make it glow using the [Pulse Width Modulation PMWLED methods](http://gpiozero.readthedocs.io/en/stable/recipes.html#led-with-variable-brightness)
 
 Home Work:
 * Listen to [Cornilia Davis's talk about Women and Technology](https://www.youtube.com/watch?v=2lFv3qknbqQ)
