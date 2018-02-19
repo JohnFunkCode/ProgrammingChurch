@@ -1,5 +1,8 @@
-# niece-python-lessons
-This repo contains a bunch of lesson to help my nieces learn Python
+# Programming Church
+This repo contains a bunch of lesson to a little band of engineers from other disciplines (including my nieces) learn software development and hardware control using Python and Raspberry Pi
+
+![Programming Church](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/ProgrammingChurch.jpeg "Shane, Megan, Katie, David")
+
 
 ## Tools used:
 For these lessons we will rely on core material from the following online material:
