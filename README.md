@@ -118,7 +118,7 @@ is in src/gpiozero-pwmLED.py
 #### Excercise 4
 Add some buttons to your LED circuit and write some code to do things with them.   I suggest first just making sure your buttons
 work, then make them start your string of LEDs racing.   Example code for this is in **src/gpizero-buttons.py**
-(hint - use the GPIOZero button.whenpressed() method.  There is a great example in the (GPIOZero Recipies)[http://gpiozero.readthedocs.io/en/stable/recipes.html)
+(hint - use the GPIOZero button.whenpressed() method.  There is a great example in the [GPIOZero Recipies](http://gpiozero.readthedocs.io/en/stable/recipes.html)
 
 ***
 ## February 17th Session - Creating Web UI with Flask - Part 1
