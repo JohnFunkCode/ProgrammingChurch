@@ -164,8 +164,8 @@ In this exercise we'll use the text anlytics module you wrote a few weeks ago to
 
 ***
 ## February 25th Session - Playing with WebUI's
-Ok, you're on your own this week so it's your chance to get creative playing with building simple web UI's.
-Here are some of my suggestions
+Ok, you're on your own this week.  It's your chance to get creative playing with building simple web UI's.  Spend some time before class this week to explore some of my suggestions below to see what you want to try to build this week.
+Here are some of my suggestions:
 * Build variations on your text analytics code.   We've surfaced the Union function, but how about the other funcitons?
 * Dress your templates up a bit with fancier HTML. There is a great HTML Tutorial at (w3schools.com)(https://www.w3schools.com/html/]  Megan knows HTML pretty well, see if you can make one of your templates look presentable.
 * Build a UI for your racing lights on your rasberry pi.  There is endless combinations you can build:
