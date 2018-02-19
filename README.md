@@ -174,4 +174,4 @@ Here are some of my suggestions:
 
 Home Work:
 * Listen to [Cornilia Davis's talk about Women and Technology](https://www.youtube.com/watch?v=2lFv3qknbqQ)
-* Listen to [Glenn Vanderburg's talk about software engineering](https://www.youtube.com/watch?v=RhdlBHHimeM) 
+* Write code!!!!
