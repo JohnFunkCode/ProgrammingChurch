@@ -178,3 +178,53 @@ Here are some of my suggestions:
 Home Work:
 * Listen to [Cornilia Davis's talk about Women and Technology](https://www.youtube.com/watch?v=2lFv3qknbqQ)
 * Write code!!!!
+
+***
+## March 3rd Session - Objects and More Web UI (We probably won't get through this section in 1 week)
+Today we'll start with more pure Python code.  It's time you learn the next step in oranizing your code by working with classes.  Classes are the basis for Object Oriented programming which is a very important topic to master because it helps decompoze complex ideas into simpler more usable code.  After that we'll go back to working with a more sophisticated flask web app to control your raspberry Pi. 
+
+##### Homework Assignment:
+* Listen to the recording on Classes in Python that I provided.
+
+#### Exercise 1
+Write a class to encapsuate the functionality of your Raspberry Pi LED contraption.  It should do the following:
+* Initialize itself by setting up all the LEDs we need to control.
+* Provide a led_on() method to turn on individual LEDs
+* Provide a led_off() method to turn off individual LEDs
+* Provide a race_up() method to make the leds race up
+* Provide a race_down() method to make the leds race down
+* Provide a dance_randomly() method to make the leds dance on and off randomly
+* Your class should also include tests when the file is run by itself using the **if __name__ == "__main__"** trick you've learned.
+##### Solution
+My solution can be found at in my [flask-pi-led-control](https://github.com/JohnFunkCode/flask-pi-led-control/blob/WithPi/library/raspi/pi_led_contraption.py) repo with the *WithPI* tag in the library/raspi directory.
+
+#### Exercise 2
+Create a static html site with the following pages:
+* index.html - acts as the home page and has a menu to get to all the other pages
+* individual.html - has a menu to get to the other pages and a text box with on/off radio buttons to allow the user to control individual LEDs.
+* group.html - has the menu, and a bunch of radio buttons to allow a user to turn on or off any of the LEDs at once.
+* patterns.html - had the menu, and buttons to allow the user to make the LEDs race up, race down, or dance randomly.
+##### Solution
+My solution can be found at in my [flask-pi-led-control](https://github.com/JohnFunkCode/flask-pi-led-control/tree/static-html) repo with the *static-html* tag.
+
+#### Exercise 3
+Turn your static html site into a flask application.  You'll need to do the following:
+- Setup a base flask app by copying the structure of our previous flask examples
+    - Setup a libraries directory for our code and templates
+    - create a driver app called run_app.py in the root of the project
+    - added requirements.txt to make sure the environment include Flask
+- Moved the static html into the templates directory
+- Create a file called flask_pi_led_controll_app.py with all the routes for the app.
+- Moved the stylesheet into /library/static/styles and changed all the html files to refer to it.
+##### Solution
+My solution can be found at in my [flask-pi-led-control](https://github.com/JohnFunkCode/flask-pi-led-control/tree/FlaskFromStaticHTML) repo with the *FlaskFromStaticHTML* tag.
+
+#### Exercise 4
+Wire in your class that encapsulates the functionality of your Raspberry Pi LED contraption into your flask application. A few tips for doing this include:
+- Set defaults for all your radio buttons in the HTML files, to make processing the forms easier.
+- Create a mock-up of your rasberry pi contraption class with all the GPIO handling stripped out.  This will make it easier to test on your PC before you move things to your raspbery pi.  I did this by simply making a copy of my class file and stripped out anything GPIO related to create a mock object that implements all right methods.
+##### Solution
+My solution can be found at in my [flask-pi-led-control](https://github.com/JohnFunkCode/flask-pi-led-control/tree/WithPi) repo with the *WithPi* tag.
+
+
+
