@@ -185,6 +185,9 @@ Today we'll start with more pure Python code.  It's time you learn the next step
 
 ##### Homework Assignment:
 * Listen to the recording on Classes in Python that I provided.
+* Learn about Github tagging and releases.  I abuse the tagging mechanism to show the stages of development in these lessons.  Here are a few resources to help you learn about tagging:
+  * https://git-scm.com/book/en/v2/Git-Basics-Tagging
+  * https://www.youtube.com/watch?v=90ynNkDzaNY
 
 #### Exercise 1
 Write a class to encapsuate the functionality of your Raspberry Pi LED contraption.  It should do the following:
