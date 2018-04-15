@@ -230,4 +230,43 @@ Wire in your class that encapsulates the functionality of your Raspberry Pi LED 
 My solution can be found at in my [flask-pi-led-control](https://github.com/JohnFunkCode/flask-pi-led-control/tree/WithPi) repo with the *WithPi* tag.
 
 
+***
+## April 15h Session - Moving on to our first IoT (Internet of things project)It's time for Pi
+We've spent several session getting our Web based Pi Contraption that flashes LEDs running with a clean object design and getting the HTML to look good on a mobile browser.  That's actually quite an accomplishment.  It's non-trivial and it has many apects of a real-world project built into it!!!!  Great Job!
+
+#### Wrap up Exercise 
+First we'll talk a little bit more about CSS styling for mobile devices.   I've pulled all the HTML out of my Pi Contraption project and put it and my style sheet on my website at: http://www.johnfunk.com/responsive/
+
+* look it it with Chrome's developer tools
+* Dig into the CSS and look at the way I have a wrapper class associated with the Body, and notice that I also use a variable font to help change the font size on various devices.   This is a very simple setup that genericly works across many different devices.
+
+### Begining Our first IoT project
+Today we'll wrap that up and move on to an even more intersting and more realworld project.   We're going to working on our first IoT project using techniques that IoT startup companies in their projects.  Our little project will use an Ada Fruit ADXL1345 Accelarometer to detect motion and report that back to a cloud based collection center where we can analyze the data collected from all the devices in our little internet of things world.
+
+#  Exercise 1
+Get started with the ADX1345 Accelerometer
+
+The core example doesn't work at:
+https://www.sunfounder.com/learn/Super_Kit_V2_for_RaspberryPi/lesson-14-adxl345-super-kit-for-raspberrypi.html
+
+Better to go direct to Adafurit’s github at:
+https://github.com/adafruit/Adafruit_Python_ADXL345
+
+However, it doesn’t clearly explain all the pre-requisits.  Read the following article on stack exchange (and pay attention to the last line) https://raspberrypi.stackexchange.com/questions/14153/adafruit-i2c-library-problem?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+Here are the steps I followed to get things running:
+sudo apt-get update
+sudo apt-get install python-smbus
+sudo apt-get install i2c-tools
+
+Then you need to change your raspberry pi configuration:
+sudo raspi-config
+In the next screen choose, in order:
+- Interfacing Options
+- I2C - enable I2C
+
+
+
+
+
 
