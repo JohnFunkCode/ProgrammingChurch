@@ -231,7 +231,7 @@ My solution can be found at in my [flask-pi-led-control](https://github.com/John
 
 
 ***
-## April 15h Session - Moving on to our first IoT (Internet of things project)It's time for Pi
+## April 15h Session - Wrap up the Web Based Pi Contraption.  Moving on to our first IoT (Internet of things project)
 We've spent several session getting our Web based Pi Contraption that flashes LEDs running with a clean object design and getting the HTML to look good on a mobile browser.  That's actually quite an accomplishment.  It's non-trivial and it has many apects of a real-world project built into it!!!!  Great Job!
 
 #### Mobile responsive CSS
