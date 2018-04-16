@@ -231,10 +231,10 @@ My solution can be found at in my [flask-pi-led-control](https://github.com/John
 
 
 ***
-## April 15h Session - Wrap up the Web Based Pi Contraption.  Moving on to our first IoT (Internet of things project)
+## April 15h Session - Wrap up Flask Pi LED Contraption.  Start our first IoT Project
 We've spent several session getting our Web based Pi Contraption that flashes LEDs running with a clean object design and getting the HTML to look good on a mobile browser.  That's actually quite an accomplishment.  It's non-trivial and it has many apects of a real-world project built into it!!!!  Great Job!
 
-#### Mobile responsive CSS
+#### Exercise - Mobile responsive CSS
 First we'll talk a little bit more about CSS styling for mobile devices.   I've pulled all the HTML out of my Pi Contraption project and put it and my style sheet on my website at: http://www.johnfunk.com/responsive/
 
 - look it it with Chrome's developer tools
@@ -248,8 +248,7 @@ Look at the following articles to learn more about how to make things look bette
 ### Begining Our first IoT project
 Today we'll wrap that up and move on to an even more intersting and more realworld project.   We're going to working on our first IoT project using techniques that IoT startup companies in their projects.  Our little project will use an Ada Fruit ADXL1345 Accelarometer to detect motion and report that back to a cloud based collection center where we can analyze the data collected from all the devices in our little internet of things world.
 
-#  Exercise 1
-Get started with the ADXL345 Accelerometer
+####  Exercise 1 - Get started with the ADXL345 Accelerometer
 
 The core example on the Sunfounder site doesn't work:
 https://www.sunfounder.com/learn/Super_Kit_V2_for_RaspberryPi/lesson-14-adxl345-super-kit-for-raspberrypi.html
