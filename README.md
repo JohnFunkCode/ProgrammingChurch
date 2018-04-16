@@ -254,7 +254,7 @@ Get started with the ADXL345 Accelerometer
 The core example on the Sunfounder site doesn't work:
 https://www.sunfounder.com/learn/Super_Kit_V2_for_RaspberryPi/lesson-14-adxl345-super-kit-for-raspberrypi.html
 
-If ound it's better to go direct to Adafurit’s github at:
+I found it's better to go direct to Adafurit’s github at:
 https://github.com/adafruit/Adafruit_Python_ADXL345
 
 However, it doesn’t clearly explain all the pre-requisits.  Read the following article on stack exchange (and pay attention to the last line) https://raspberrypi.stackexchange.com/questions/14153/adafruit-i2c-library-problem?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
