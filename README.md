@@ -231,7 +231,7 @@ My solution can be found at in my [flask-pi-led-control](https://github.com/John
 
 
 ***
-## April 15h Session - Wrap up Flask Pi LED Contraption & Start our first IoT Project
+## April 15 Session - Wrap up Flask Pi LED Contraption 
 We've spent several weeks getting our Flask based Pi Contraption that flashes LEDs by using a clean object design and an HTML interface.  That's actually quite an accomplishment.  It's non-trivial and it has many apects of a real-world project built into it!!!!  Great Job!
 
 #### Exercise - Mobile responsive CSS
@@ -244,7 +244,7 @@ Look at the following articles to learn more about how to make things look bette
 - https://www.smashingmagazine.com/2016/05/fluid-typography/
 - https://css-tricks.com/viewport-sized-typography/
 
-### Begining Our first IoT project
+## April 22 Session - Begining Our first IoT project
 Today we'll wrap that up and move on to an even more intersting and more realworld project.   We're going to working on our first IoT project using techniques that IoT startup companies in their projects.  Our little project will use an Ada Fruit ADXL1345 Accelarometer to detect motion and report that back to a cloud based collection center where we can analyze the data collected from all the devices in our little internet of things world.
 
 ####  Exercise 1 - Get started with the ADXL345 Accelerometer
