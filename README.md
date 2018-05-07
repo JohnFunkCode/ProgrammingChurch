@@ -307,7 +307,9 @@ Follow the steps in the [Pivotal Web Services Documentation](https://docs.run.pi
 Read the article [WebApp in 5 minutes: Deploying a Flask Python App to Pivotal Web Services](http://exaforge.com/webapp-in-5-minutes-deploying-a-flask-python-app-to-pivotal-web-servicescf).   
 
 #### Exercise 4 - Deploy your the flask poriton of your Flask Pi IoT project to Pivotal Web Services
-Using the article in exercise 3 deploy your application to Pivotal Web Services.   Note you will have to create an *requrements.txt* file and you'll have to create *Procfile* as described in the article.
+Using the article in exercise 3 deploy your application to Pivotal Web Services.   
+- You will have to create an *requrements.txt* file and you'll have to create *Procfile* as described in the article.
+- You will also have to change the URL that your Raspberry Pi code uses to post data to the flask app
 
 
 
