@@ -281,6 +281,38 @@ an appliction for the Raspberry Pi that reads data from the ADXL345 and sends it
 
 ![Project Architecture](https://github.com/JohnFunkCode/ProgrammingChurch/blob/master/diagrams/flask-pi-iot-architecture1.png "Project Architecture")
 
+#### Exercise 1 - Raspberry Pi code
+Use the [Requests](http://docs.python-requests.org/en/master/user/quickstart/) library and the [Adafruit_Python_ADXL345](https://github.com/adafruit/Adafruit_Python_ADXL345) libary to write code for the Raspberry Pi that reads the sensor and uses an http post to send the x,y,z data to a flask app on your laptop. 
+
+#### Solution
+My solution can be found at [accelerometer_post.py](https://github.com/JohnFunkCode/flask-pi-iot/blob/master/pi_client/accelerometer_post.py)
+
+#### Exercise 2 - Flask App
+Using what we've learned about Flask so far write a Flask app that runs on your laptop.   It should have a route that handles the data your Raspberry Pi code posts to your app and print it to the console.   Also create a route for index.html to show something if someone goes to your app with a browser (we'll expand the UI in the future).   
+
+#### Solution
+If you need help remembering how to buidl a Flask app, look back at your last project code before simply using my solution.   
+My solution can be found at [fask-pi-iot](https://github.com/JohnFunkCode/flask-pi-iot)
+
+***
+## May 20 Session - flask-pi-iot part 2: To the cloud!
+
+#### Exercise 1 - Create an account on [Pivotal Web Services](https://run.pivotal.io/)
+Go to run.pivotal.io and create an account.
+
+#### Exercise 2 - Install the Cloud Foundry CLI
+Follow the steps in the [Pivotal Web Services Documentation](https://docs.run.pivotal.io/cf-cli/) to install the Cloud Foundry CLI and read a bit to get familar with it.
+
+#### Exercise 3 - Read about building Flask apps on Pivotal Web Services
+Read the article [WebApp in 5 minutes: Deploying a Flask Python App to Pivotal Web Services](http://exaforge.com/webapp-in-5-minutes-deploying-a-flask-python-app-to-pivotal-web-servicescf).   
+
+#### Exercise 4 - Deploy your the flask poriton of your Flask Pi IoT project to Pivotal Web Services
+Using the article in exercise 3 deploy your application to Pivotal Web Services.   Note you will have to create an *requrements.txt* file and you'll have to create *Procfile* as described in the article.
+
+
+
+
+
 
 
 
