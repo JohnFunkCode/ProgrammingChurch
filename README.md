@@ -248,7 +248,7 @@ Look at the following articles to learn more about how to make things look bette
 Today we'll wrap that up and move on to an even more intersting and more realworld project.   We're going to working on our first IoT project using techniques that IoT startup companies in their projects.  Our little project will use an Ada Fruit ADXL1345 Accelarometer to detect motion and report that back to a cloud based collection center where we can analyze the data collected from all the devices in our little internet of things world.
 
 ####  Exercise 1 - Get started with the ADXL345 Accelerometer
-First read the instructions about using the ADXL345 accelarometer in the manual of your Sunfounder kit.  In my version of the kit it's exercise 14.  Your version might be a bit different.
+First read the instructions about using the ADXL345 accelerometer in the manual of your Sunfounder kit.  In my version of the kit it's exercise 14.  Your version might be a bit different.
 
 - Wire up the Accelrometer circut according ot the manual in your sunfounder kit.  I recommend putting this on a different breakout board.  But you might put in on the same board as your LEDs if you want to show them all off together and don't mind a more complicated circuit.
 
@@ -272,6 +272,12 @@ sudo raspi-config
 In the next screen choose, in order:
 - Interfacing Options
 - I2C - enable I2C
+
+
+***
+## May 6 Session - flask-pi-iot
+This week we'll start by debugging any circuit or setup problems with the ADXL345 accelerometer.  From there we'll begin to build
+an appliction for the Raspberry Pi that reads data from the ADXL345 and sends it via an HTTP post to a Flask application running on your laptop.
 
 
 
