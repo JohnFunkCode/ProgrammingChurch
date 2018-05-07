@@ -279,7 +279,7 @@ In the next screen choose, in order:
 This week we'll start by debugging any circuit or setup problems with the ADXL345 accelerometer.  From there we'll begin to build
 an appliction for the Raspberry Pi that reads data from the ADXL345 and sends it via an HTTP post to a Flask application running on your laptop.
 
-
+![Project Architecture](https://github.com/JohnFunkCode/ProgrammingChurch/blob/master/diagrams/flask-pi-iot-architecture1.png "Project Architecture")
 
 
 
