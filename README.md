@@ -305,6 +305,12 @@ Follow the steps in the [Pivotal Web Services Documentation](https://docs.run.pi
 #### Exercise 3 - Read about building Flask apps on Pivotal Web Services
 Read the article [WebApp in 5 minutes: Deploying a Flask Python App to Pivotal Web Services](https://github.com/mcowger/old_blog/blob/master/_posts/2014-04-14-webapp-in-5-minutes-deploying-a-flask-python-app-to-pivotal-web-servicescf.markdown).   
 
+#### Exercise 3a - Read the Ian Huston's aritcle about using Python with Cloud Foundry
+Read Ian Huston's article and watch his video about [Python Cloud Foundry Examples](https://github.com/ihuston/python-cf-examples)
+
+#### Exercise 3b - Read the docs on the Python Buildpack for Cloud Foundry
+Read the documentation on the [Python Buildpack for Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/python/index.html)
+
 #### Exercise 4 - Deploy your the flask poriton of your Flask Pi IoT project to Pivotal Web Services
 Using the article in exercise 3 deploy your application to Pivotal Web Services.   
 - You will have to create an **requrements.txt** file and you'll have to create **Procfile** as described in the article.
