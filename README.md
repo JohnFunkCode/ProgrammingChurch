@@ -313,6 +313,13 @@ Read the documentation on the [Python Buildpack for Cloud Foundry](https://docs.
 
 #### Exercise 4 - Deploy your the flask poriton of your Flask Pi IoT project to Pivotal Web Services
 Using the article in exercise 3 deploy your application to Pivotal Web Services.   
-- You will have to create an **requrements.txt** file and you'll have to create **Procfile** as described in the article.
-- You will also have to change the URL that your Raspberry Pi code uses to post data to the flask app
+- You will have to create an **requrements.txt** file a **Procfile** and a **runtime.txt** file as described in the article.
+- You will also have to change the ip address your flask app listens on to 0.0.0.0 which on Unix means any ip this machine is configured to use.
+- The last thing you need to do is change the URL that your Raspberry Pi code uses to post data to the flask app it will be the new url show in the **route** informaiton in Cloud Foundry.
+
+#### Exercise 5 - install the Simple Rest Client chrome extention
+To help test our web services applications it's helpfull to install the (Simple Rest Client)[https://github.com/jeremys/Simple-Rest-Client-Chrome-Extension] chrome extension.  Or something similar.  Using this tool you can send arbitrary data to your web applicaiton.
+
+#### Exercise 6 - Read the Curl tutorial
+Curl is a linux command that allows you to make HTTP requests from the command line.  It's a handy tool for testing web applicaitons so you should learn to use it effectivly.  The (Curl Tutorial)[https://curl.haxx.se/docs/httpscripting.html] is a great place to start.
 
