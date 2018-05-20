@@ -303,7 +303,7 @@ Go to **[run.pivotal.io](https://run.pivotal.io/)** and create an account.
 Follow the steps in the [Pivotal Web Services Documentation](https://docs.run.pivotal.io/cf-cli/) to install the Cloud Foundry CLI and read a bit to get familar with it.
 
 #### Exercise 3 - Read about building Flask apps on Pivotal Web Services
-Read the article [WebApp in 5 minutes: Deploying a Flask Python App to Pivotal Web Services](http://exaforge.com/webapp-in-5-minutes-deploying-a-flask-python-app-to-pivotal-web-servicescf).   
+Read the article [WebApp in 5 minutes: Deploying a Flask Python App to Pivotal Web Services](https://github.com/mcowger/old_blog/blob/master/_posts/2014-04-14-webapp-in-5-minutes-deploying-a-flask-python-app-to-pivotal-web-servicescf.markdown).   
 
 #### Exercise 4 - Deploy your the flask poriton of your Flask Pi IoT project to Pivotal Web Services
 Using the article in exercise 3 deploy your application to Pivotal Web Services.   
