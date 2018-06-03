@@ -1,4 +1,4 @@
-# Programming Church
+﻿# Programming Church
 This repo contains a bunch of lesson for a little band of *'engineers from other disciplines'* (including my nieces) to learn software development and hardware device control using Python and Raspberry Pi
 
 ![Programming Church](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/ProgrammingChurch.jpeg "Shane, Megan, Katie, David")
@@ -37,7 +37,7 @@ In this session we're going to begin our discussions about functions and modules
 * The exercises for the session can be found in this repo at: [Text Analytics Functions.ipynb](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/January%2015%20-%20Loops%20Functions%20Modules%20.ipynb)
 
 ***
-## January 28th Session - Using other peoples code 
+## January 28th Session - Using other peoples code
 Kids now days don't understand how lucky they are to have such broad collection of third party code to work with.  You can find a library of code someone else has written to do just about anything you can imagine now days.  In this session we're going to learn how to use add-on packages in Python.  
 
 #### Prerequisites
@@ -107,7 +107,7 @@ Now that we got the Raspberry Pi's running and know how to get code on them via 
 last week's exercises to build some simple circuits and write a bunch of code on the Raspberry.
 
 #### Exercise 1
-Build a circuit to connect an LED to a GPIO pin and write some code to make it blink.   Look back at Excercise 4 from 
+Build a circuit to connect an LED to a GPIO pin and write some code to make it blink.   Look back at Excercise 4 from
 last week for more details
 
 #### Exercise 2
@@ -115,7 +115,7 @@ Build a circuit to connect a bunch of LEDs to GPIO pins and write some code to m
 is in src/gpiozero-racingLED.py
 
 #### Excercise 3
-Play with Pulse Width Modulation to vary the duty cycle you put on your LEDs to make them glow etc.  Example code for this 
+Play with Pulse Width Modulation to vary the duty cycle you put on your LEDs to make them glow etc.  Example code for this
 is in src/gpiozero-pwmLED.py
 
 #### Excercise 4
@@ -128,7 +128,7 @@ work, then make them start your string of LEDs racing.   Example code for this 
 After taking a brief side trip to explore building circuites and programming hardware with our Raspberry Pi's its time to get back to more code.  This week we're going to begin creating web UI's in python so our code can be more interactive.  There are a lot of new concepts for you to learn so this will most likely take a few sessions.
 
 Homework Assignment:
-To get an understanding of where we're going listen to the entire [Flask Tutorial Step by Step](https://www.udemy.com/python-flask-tutorial-step-by-step/learn/v4/content) course on Udemy.  This first time through, don't try to do any of the lectures, I just want you to get a broad understanding of what the Flask framework does so we can work through it piece by piece. 
+To get an understanding of where we're going listen to the entire [Flask Tutorial Step by Step](https://www.udemy.com/python-flask-tutorial-step-by-step/learn/v4/content) course on Udemy.  This first time through, don't try to do any of the lectures, I just want you to get a broad understanding of what the Flask framework does so we can work through it piece by piece.
 
 We are also going to step up our game and start working with Pycharm which is a more professional integrated development environment (IDE).  Please review the [Pycharm Quick Start Guide](https://www.jetbrains.com/help/pycharm/quick-start-guide.html)
 
@@ -172,7 +172,7 @@ Here are some of my suggestions:
 * Build variations on your text analytics code.   We've surfaced the Union function, but how about the other funcitons?
 * Dress your templates up a bit with fancier HTML. Megan knows HTML pretty well, and there is a great HTML Tutorial at [w3schools.com](https://www.w3schools.com/html/).  See if you can make one of your templates look presentable.
 * Build a UI for your racing lights on your rasberry pi.  There is endless combinations you can build:
-    - Make the lights race up, or down 
+    - Make the lights race up, or down
     - Show the user a bunch of radio buttons and let them choose what LED to light up, or even use a pulldown menu to let them choose to make it light solid, blink, or even make it glow using the [Pulse Width Modulation PMWLED methods](http://gpiozero.readthedocs.io/en/stable/recipes.html#led-with-variable-brightness)
 
 Home Work:
@@ -181,7 +181,7 @@ Home Work:
 
 ***
 ## March 3rd Session - Objects and More Web UI (We probably won't get through this section in 1 week)
-Today we'll start with more pure Python code.  It's time you learn the next step in oranizing your code by working with classes.  Classes are the basis for Object Oriented programming which is a very important topic to master because it helps decompoze complex ideas into simpler more usable code.  After that we'll go back to working with a more sophisticated flask web app to control your raspberry Pi. 
+Today we'll start with more pure Python code.  It's time you learn the next step in oranizing your code by working with classes.  Classes are the basis for Object Oriented programming which is a very important topic to master because it helps decompoze complex ideas into simpler more usable code.  After that we'll go back to working with a more sophisticated flask web app to control your raspberry Pi.
 
 ##### Homework Assignment:
 * Listen to the recording on Classes in Python that I provided.
@@ -231,7 +231,7 @@ My solution can be found at in my [flask-pi-led-control](https://github.com/John
 
 
 ***
-## April 15 Session - Wrap up Flask Pi LED Contraption 
+## April 15 Session - Wrap up Flask Pi LED Contraption
 We've spent several weeks getting our Flask based Pi Contraption that flashes LEDs by using a clean object design and an HTML interface.  That's actually quite an accomplishment.  It's non-trivial and it has many apects of a real-world project built into it!!!!  Great Job!
 
 #### Exercise - Mobile responsive CSS
@@ -282,7 +282,7 @@ an appliction for the Raspberry Pi that reads data from the ADXL345 and sends it
 ![Project Architecture](https://github.com/JohnFunkCode/ProgrammingChurch/blob/master/diagrams/flask-pi-iot-architecture1.png "Project Architecture")
 
 #### Exercise 1 - Raspberry Pi code
-Use the [Requests](http://docs.python-requests.org/en/master/user/quickstart/) library and the [Adafruit_Python_ADXL345](https://github.com/adafruit/Adafruit_Python_ADXL345) libary to write code for the Raspberry Pi that reads the sensor and uses an http post to send the x,y,z data to a flask app on your laptop. 
+Use the [Requests](http://docs.python-requests.org/en/master/user/quickstart/) library and the [Adafruit_Python_ADXL345](https://github.com/adafruit/Adafruit_Python_ADXL345) libary to write code for the Raspberry Pi that reads the sensor and uses an http post to send the x,y,z data to a flask app on your laptop.
 
 #### Solution
 My solution can be found at [accelerometer_post.py](https://github.com/JohnFunkCode/flask-pi-iot/blob/master/pi_client/accelerometer_post.py)
@@ -317,10 +317,39 @@ Using the article in exercise 3 deploy your application to Pivotal Web Services.
 - You will also have to change the ip address your flask app listens on to 0.0.0.0 which on Unix means any ip this machine is configured to use.
 - The last thing you need to do is change the URL that your Raspberry Pi code uses to post data to the flask app it will be the new url show in the **route** informaiton in Cloud Foundry.
 
-#### Exercise 5 - install the Simple Rest Client chrome extention
-To help test our web services applications it's helpfull to install the (Simple Rest Client)[https://github.com/jeremys/Simple-Rest-Client-Chrome-Extension] chrome extension.  Or something similar.  Using this tool you can send arbitrary data to your web applicaiton.
+#### Exercise 5 - install the Simple Rest Client chrome extension
+To help test our web services applications it's helpfull to install the [Simple Rest Client](https://github.com/jeremys/Simple-Rest-Client-Chrome-Extension) chrome extension.  Or something similar.  Using this tool you can send arbitrary data to your web applicaiton.
 
 #### Exercise 6 - Read the Curl tutorial
-Curl is a linux command that allows you to make HTTP requests from the command line.  It's a handy tool for testing web applicaitons so you should learn to use it effectivly.  The (Curl Tutorial)[https://curl.haxx.se/docs/httpscripting.html] is a great place to start.
+Curl is a linux command that allows you to make HTTP requests from the command line.  It's a handy tool for testing web applicaitons so you should learn to use it effectivly.  The [Curl Tutorial](https://curl.haxx.se/docs/httpscripting.html) is a great place to start.
 
-### May 7th
+## May 27th Session - code,code,code!
+For the last few weeks we've done a lot, but we haven't spent much time honing our coding capabilities.  We built a new circuit, we setup the base for a new Flask project, and we learned how to run our flask apps on Cloud Foundry.  That was all very significant, but this week we are going to get back into the code.   The goal for this week is to get the IoT client code on our Raspberry Pi send the Pis serial number, the time stamp, and the x,y,z data from our Accelerometer to cloud foundry.
+
+### TDD - Test Driven Development
+In some of our early exercises on creating classes in Python I introduced the concept of TDD - Test Driven Design.  We are going to build on that as we move forward using the Python unittest framework.  
+Review the [Unit testing framework documentation](https://docs.python.org/3/library/unittest.html) and this fun [tongue-in-cheek video by Socratica on the unittest framework](https://www.youtube.com/watch?v=1Lfv5tUGsn8).  There is also a chapter on Test-Driven Development in the book ["Expert Python Programming"](https://www.packtpub.com/application-development/expert-python-programming-second-edition) which is part of the Python Humble Bundle of books that you have.
+
+#### Exercise 1 - Create a test to test code that would return the Raspberry Pi serial number.
+Before we write code, lets write a test to help us make sure we know that we want the code does what we want.  Your assignment is to write a unittest to test a function that returns the Raspberry Pi serial number.   A simple test could just to make sure the serial number isn't empty.
+
+#### Exercise 2 - Create a function to get the serial number from Raspberry Pi.  
+As a team, we have a small fleet of Raspberry Pis.  When they send their data to the cloud we want a way to differentiate which one send the data.  Fortunately each Raspberry Pi has a unique serial number that we can obtain programmatically.  There are a lot of articles that discuss how to get the serial number.  Google "Raspberry Pi serial number python" and read a few articles to make sure you understand the topic. Your assignment is to create a function inside your Pi Client code that returns the serial number, and incorporate this into the data that you post to the server.  
+*Hint:* There is a very concise sample that I like at [Getting Your Raspberry Pi Serial Number Using Python](https://www.raspberrypi-spy.co.uk/2012/09/getting-your-raspberry-pi-serial-number-using-python/).
+
+### More advanced enhancements
+It would be more interesting if everyone's Raspberry Pi sent data to everyone's server.  To do that we'll adapt our Pi client code to post it's data to everyones's code running on Cloud Foundry.  To do this build a list of servers, and adapt your code to add a for loop to send to post data to each of those server.
+
+#### Exercise 3 - Create a test to test your list of servers
+Before we write the code to return a list of servers, think about how you would test that it works.   Your assignment is to write unittests to make sure things do what you want.  I suggest making sure you have a function to get the list of servers.  And make sure the list of servers has at least some data.
+
+#### Exercise 4 - Implement the code for your list of servers
+Write the code to return a list of servers.  Then build that code into your Pi Client so it sends data to all the servers in the list.
+
+#### Exercise 5 - Test that the server responds before sending data to it.
+Our last exercise for the day is to test that the server responds before sending data to it.  I recommend testing the connection before you drop into a loop reading the Accelarometer and sending data to the server - but there are lots of ways you could implement this.
+
+### Solution:
+My solution for this set of exercises is in the [v2.0 tagged version of my flask-pi-iot project](https://github.com/JohnFunkCode/flask-pi-iot/tree/v2.0/pi_client)
+
+this should be the last line!!!!
