@@ -351,3 +351,30 @@ Our last exercise for the day is to test that the server responds before sending
 
 ### Solution:
 My solution for this set of exercises is in the [v2.0 tagged version of my flask-pi-iot project](https://github.com/JohnFunkCode/flask-pi-iot/tree/v2.0/pi_client)
+
+## June 3rd Session - More code!
+Last week I realized that you just need more time writing code so the theme for today is more code.  We're going to write a class to hold all accelerometer data that were collecting from the Raspberry Pi.  Today you won't have to worry about getting your code over to the Raspberry Pi to test.  All of today's code can be tested on laptop before we push it to Cloud Foundry.
+
+#### Exercise 1 - Create a new Python Package called pi_iot_data.
+We'll start by creating a directory inside your library directory called pi_iot_data and create the shell of a class called pi_iot_data.py and a unittest for it.  This will modularize our design and let us evolve the code to store data over time.
+
+#### Exercise 2 - Write a test
+Write a test that exercises a method in your new class that adds an accelerometer reading to a collection.  I recommend that you make sure your tests validate that there is more data in your collection after you add a reading than there were to start with.
+
+#### Exercise 3 - Write code to make your tests work
+Add some code to your class to add a reading with the accelerometer data from the Raspberry Pi.  
+
+#### Exercise 4 - Write another tests
+Write a test to ensure code to get all the readings you have collected from the Raspbery Pi works properly.  One fast test could make sure that the code returns an expected number of readings.  For example add 2 readings and make sure the code returns 2 readings.
+
+#### Exercise 5 - Write code to make your test work
+Add code to your class to get all the readings you have collected from the Raspberry Pi.
+
+### Solution:
+My solution for this set of exercises is in the [v3.0 tagged version of my flask-pi-iot project](https://github.com/JohnFunkCode/flask-pi-iot/tree/V3.0/library/pi_iot_data)
+
+## June 10th Session - Connect pi-iot-data to Flask UI
+Next week we'll connect your pi-iot-data to your Flask UI.  To do this you'll update your main application so the data that comes in gets added to your collection.  Then we'll modify the alldata.html template code to display the collected data.
+
+### Homework:
+Go back and re-listen to [Santiago Basulto's "Flask Tutorial - Step by Step"](https://www.udemy.com/python-flask-tutorial-step-by-step/learn/v4/t/lecture/6555378?start=0) on Udemy.  Everything you need to know for the June 10th session is discussed in that class.
