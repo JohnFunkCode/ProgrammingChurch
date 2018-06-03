@@ -351,5 +351,3 @@ Our last exercise for the day is to test that the server responds before sending
 
 ### Solution:
 My solution for this set of exercises is in the [v2.0 tagged version of my flask-pi-iot project](https://github.com/JohnFunkCode/flask-pi-iot/tree/v2.0/pi_client)
-
-Really I don't understand how it can think there aren't any updates.
