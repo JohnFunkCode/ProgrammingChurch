@@ -323,3 +323,4 @@ To help test our web services applications it's helpfull to install the (Simple 
 #### Exercise 6 - Read the Curl tutorial
 Curl is a linux command that allows you to make HTTP requests from the command line.  It's a handy tool for testing web applicaitons so you should learn to use it effectivly.  The (Curl Tutorial)[https://curl.haxx.se/docs/httpscripting.html] is a great place to start.
 
+### May 7th
