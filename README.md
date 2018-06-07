@@ -378,3 +378,15 @@ Next week we'll connect your pi-iot-data to your Flask UI.  To do this you'll up
 
 ### Homework:
 Go back and re-listen to [Santiago Basulto's "Flask Tutorial - Step by Step"](https://www.udemy.com/python-flask-tutorial-step-by-step/learn/v4/t/lecture/6555378?start=0) on Udemy.  Everything you need to know for the June 10th session is discussed in that class.
+
+####Exercise 1 - Connect your add_reading method to the /test route
+The first thing to do today is to connect your data storage object to the /test route in your flask_pi_iot_app.py in your library folder.  To do this just take the data out of the request.form data and call your data objects add_reading method.
+
+####Exercise 2 - Connect your get_all_readings method to the /alldata.html route
+Now that you have data it's time to display it.  We'll connect it up to the /all.data.html route.   To do this you'll have to get the data from your data storage object and pass it to the render_template method.  
+
+####Exercise 3 - Render the data in your alldata.html template
+To do this you'll need to use the Jinja template language to display all of the data.  I suggest starting with very simple html formatting first then move it to a table.
+
+ ### Solution:
+My solution for this set of exercises is in the [v4.0 tagged version of my flask-pi-iot project](https://github.com/JohnFunkCode/flask-pi-iot/tree/V4.0/library/pi_iot_data)
