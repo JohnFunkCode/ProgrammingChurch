@@ -373,7 +373,7 @@ Add code to your class to get all the readings you have collected from the Raspb
 ### Solution:
 My solution for this set of exercises is in the [v3.0 tagged version of my flask-pi-iot project](https://github.com/JohnFunkCode/flask-pi-iot/tree/V3.0/library/pi_iot_data)
 
-## June 10th Session - Connect pi-iot-data to Flask UI
+## June 10th & 17th Sessions - Connect pi-iot-data to Flask UI
 Next week we'll connect your pi-iot-data to your Flask UI.  To do this you'll update your main application so the data that comes in gets added to your collection.  Then we'll modify the alldata.html template code to display the collected data.
 
 ### Homework:
@@ -390,3 +390,30 @@ To do this you'll need to use the Jinja template language to display all of the 
 
  ### Solution:
 My solution for this set of exercises is in the [v4.0 tagged version of my flask-pi-iot project](https://github.com/JohnFunkCode/flask-pi-iot/tree/V4.0/library/pi_iot_data)
+
+
+## June 24th Sessions - Make the Flask-Pi-IOT Raspberry Pi Client More Robust
+This week we're going to go back and make the Raspberry Pi client code for our Flask-Pi-IOT more robust.   It currently just tries to send data to a bunch of server.   But what if those servers aren't available, or what if they start as not available but start working as our Pi's are collecting data?  To start we're going to talk about exception handling with try-catch blocks.
+
+### Homework:
+To get ready to work on the Pi Client code read the following material:
+- Read the article ["How To Use Break, Continue, and Pass Statements when Working with Loops in Python 3"](https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3)
+
+- Read the["Errors and Exceptions"](https://docs.python.org/3/tutorial/errors.html) section of the Python 3 documentation.
+
+- Read Chapter 2: Statements and Syntax of the book "Modern Python Cookbook" by Steven F. Lott from the humble bundle books you bought.
+
+#### Exercise 1 - Write a mock method that runs on your PC to simulate getting accelerometer data.
+To make it easier to test and debug your code, write a mock method to simulate getting the accelerometer data.  Make it easy to switch between the real code that runs on the raspberry pi and the mock code that runs on your PC.
+
+#### Exercise 2 - Get a list of server to send data to
+Using TDD write a method that returns a list of servers for your PI to send data to.
+
+#### Exercise 3 - Get a list of valid servers based on the initial list of servers.
+Using TDD write a method that returns a list of servers that are currently responding from the initial list of servers.  *Watch out for calling list.remove() while iterating through that list.  This is a subtle bug that can drive you crazy.*
+
+#### Exercise 4 - Put your valid server code to work by sending data to all the valid servers.
+Change the loop in your code to send data to all the valid servers.  Also make it remove any servers that return errors.
+
+#### Exercise 5 - Make your code check to see if any of the configured servers are now up and running from time to time.
+Change the way your code sends data to occasionally stop and see if any of the configured servers are up and running now. It should still continue to remove any servers that returned errors.
