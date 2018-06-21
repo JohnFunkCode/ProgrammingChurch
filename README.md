@@ -417,3 +417,6 @@ Change the loop in your code to send data to all the valid servers.  Also make i
 
 #### Exercise 5 - Make your code check to see if any of the configured servers are now up and running from time to time.
 Change the way your code sends data to occasionally stop and see if any of the configured servers are up and running now. It should still continue to remove any servers that returned errors.
+
+### Solution:
+My solution for this set of exercises is in the [my flask-pi-iot project in the pi_client folder](https://github.com/JohnFunkCode/flask-pi-iot/tree/master/pi_client)
