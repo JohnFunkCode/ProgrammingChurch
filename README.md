@@ -420,3 +420,6 @@ Change the way your code sends data to occasionally stop and see if any of the c
 
 ### Solution:
 My solution for this set of exercises is in the [my flask-pi-iot project in the pi_client folder](https://github.com/JohnFunkCode/flask-pi-iot/tree/master/pi_client)
+
+### Bonus Exercise
+Cut down the chattiness of your code by only having it send data to the server(s) every minute if the data isn't changing. 
