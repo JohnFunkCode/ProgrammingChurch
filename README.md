@@ -422,4 +422,20 @@ Change the way your code sends data to occasionally stop and see if any of the c
 My solution for this set of exercises is in the [my flask-pi-iot project in the pi_client folder](https://github.com/JohnFunkCode/flask-pi-iot/tree/master/pi_client)
 
 ### Bonus Exercise
-Cut down the chattiness of your code by only having it send data to the server(s) every minute if the data isn't changing. 
+Cut down the chattiness of your code by only having it send data to the server(s) every minute if the data isn't changing.
+
+## July 24th Session - Externalizing Config Data
+Now that we've improved our RaspberyPi IOT sensor client code to be more robust, there is one more thing to do before we move on.   We need to externalize where we store the list of servers the code uses and remove the hard coded server list from the Raspberry Pi.  There are several ways we can do that.   We could just move all the configuration data to a separate python file, we could read it from a text file, or we could read it from a YAML file sored on github.   But since I study the dark side, we're going to make our little fleet of sensor bots get their data from data hidden in a .jpg file stored in plain sight.  This is similar to how the evil botnet get anonymous command and control data without anyone detecting them.
+
+#### Homework Assignment 1 - Study the code in my [getconfig](https://github.com/JohnFunkCode/getconfig) repository
+
+#### Homework Assignment 2 - Study the following articles about .jpg files
+- [JPEG File Interchange Format](https://www.disktuna.com/wp-content/uploads/2016/11/jpeg.jpg)
+- [The Metadata in JPEG files](http://dev.exiv2.org/projects/exiv2/wiki/The_Metadata_in_JPEG_files)
+- [ExifLibrary for .NET](https://www.codeproject.com/Articles/43665/ExifLibrary-for-NET)
+
+#### Homework Assignment 3 - Study the code in my [iptc_info_cipher](https://github.com/JohnFunkCode/iptc_info_ciper) repository
+This is a nearly production ready library that stores encrypted data into the metadata of a .jpg file.
+
+#### Exercise 1 - Add code to your Raspberry Pi IOT client to external config data
+You can use any method you like, but get the hard coded list of servers out of your code!
