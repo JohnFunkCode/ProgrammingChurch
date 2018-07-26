@@ -424,8 +424,8 @@ My solution for this set of exercises is in the [my flask-pi-iot project in the 
 ### Bonus Exercise
 Cut down the chattiness of your code by only having it send data to the server(s) every minute if the data isn't changing.
 
-## July 24th Session - Externalizing Config Data
-Now that we've improved our RaspberyPi IOT sensor client code to be more robust, there is one more thing to do before we move on.   We need to externalize where we store the list of servers the code uses and remove the hard coded server list from the Raspberry Pi.  There are several ways we can do that.   We could just move all the configuration data to a separate python file, we could read it from a text file, or we could read it from a YAML file sored on github.   But since I study the dark side, we're going to make our little fleet of sensor bots get their data from data hidden in a .jpg file stored in plain sight.  This is similar to how the evil botnet get anonymous command and control data without anyone detecting them.
+## July 29th Session - Externalizing Config Data
+Now that we've improved our RaspberyPi IOT sensor client code to be more robust, there is one more thing to do before we move on.   We need to externalize where we store the list of servers the code uses and remove the hard coded server list from the Raspberry Pi.  There are several ways we can do that.   We could just move all the configuration data to a separate python file, we could read it from a text file, or we could read it from a YAML file stored on github.   But instead we'll take a little detour and learn about the file format of .jpg image files and have some fun.   Just for fun, we're going to make our little fleet of sensor bots get their data from data hidden in a .jpg file stored in plain sight.  I study the dark side, and this is a technique that evil botnets use to get anonymous command and control information without anyone detecting them.
 
 #### Homework Assignment 1 - Study the code in my [getconfig](https://github.com/JohnFunkCode/getconfig) repository
 
