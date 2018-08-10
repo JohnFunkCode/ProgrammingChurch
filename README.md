@@ -443,7 +443,8 @@ You can use any method you like, but get the hard coded list of servers out of y
 ## August 9th Session - Data Analytics with Pandas
 Today we are going to finish up externalizing the config data for our Raspberry Pi code.  Then we're going to end the day with an introduction to Data Analytics with Pandas.  To  start our experiments with data analytics, we'll go back to Jupyter notebook to get familiar with Pandas and the method most data scientists use when analyzing data.
 
-#### Exercise 1 - Finish writing the code for your Raspberry Pi IOT client to external the configuration of the servers the code will send data to.
+#### Exercise 1 - Finish last week's code
+Finish writing the code for your Raspberry Pi IOT client to external the configuration of the servers the code will send data to.
 
 #### Lecture Topic 1 - Intro to Data Science with Pandas
 
