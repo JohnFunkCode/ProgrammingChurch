@@ -439,3 +439,19 @@ This is a nearly production ready library that stores encrypted data into the me
 
 #### Exercise 1 - Add code to your Raspberry Pi IOT client to external config data
 You can use any method you like, but get the hard coded list of servers out of your code!
+
+## August 9th Session - Data Analytics with Pandas
+Today we are going to finish up externalizing the config data for our Raspberry Pi code.  Then we're going to end the day with an introduction to Data Analytics with Pandas.  To  start our experiments with data analytics, we'll go back to Jupyter notebook to get familiar with Pandas and the method most data scientists use when analyzing data.
+
+#### Exercise 1 - Finish writing the code for your Raspberry Pi IOT client to external the configuration of the servers the code will send data to.
+
+#### Lecture Topic 1 - Intro to Data Science with Pandas
+
+#### Exercise 2 - Using Pandas with Jupyter Notebook
+In this exercise you will start working with Pandas in Jupyter notebook.
+* Copy the data that I collected with my Raspberry Pi on my drive to Boulder from [HomeToWork-08092018.txt]( https://github.com/JohnFunkCode/flask-pi-iot/blob/master/data/HomeToWork-08092018.txt) in my [flask-pi-iot](https://github.com/JohnFunkCode/flask-pi-iot) repo.  Put this into a /data folder in your project.
+* Open Jupyter and create a new notebook in your code/flask-pi-iot folder.
+* Follow my experiments in the [notebook](https://github.com/JohnFunkCode/flask-pi-iot/blob/master/flask-pi-iot.ipynb) in my flask-pi-iot repo.
+
+#### Homework assignment
+Sign-up for a free 10 day trail account at www.PluralSight.com and consume the coure ["Pandas Playbook:Manipulating Data" by Reindert-Jan Ekker](https://app.pluralsight.com/library/courses/pandas-playbook-manipulating-data/table-of-contents). You should be able to complete this 2 hours 15 minute course before next week, so we can put Pandas to work in our project.
