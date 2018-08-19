@@ -456,3 +456,40 @@ In this exercise you will start working with Pandas in Jupyter notebook.
 
 #### Homework assignment
 Sign-up for a free 10 day trail account at www.PluralSight.com and consume the coure ["Pandas Playbook:Manipulating Data" by Reindert-Jan Ekker](https://app.pluralsight.com/library/courses/pandas-playbook-manipulating-data/table-of-contents). You should be able to complete this 2 hours 15 minute course before next week, so we can put Pandas to work in our project.
+
+## August 12th Session - Your First Data Science explorations with Pandas
+Make sure you did your homework for this class!  We are going to start exploring data with Panadas using the dataset I recorded with my Raspberry Pi and the Accelerometer board we built on my drive to Boulder.  We don't know a lot about this data so we are going to explore it using Jupyter Notebook to see what interesting things we can find.   And along the way, we'll improve our skills in using Pandas!
+
+#### Assignment 1 - Read the sample accelerometer data from my trip to Boulder into a data frame.
+
+#### Assignment 2 - Plot the dataframe as a graph
+
+#### Assignment 3 - Lets start to learn a bit about the data! Print descriptive statistics (min,max, mean, standard deviation) for the variables in the data.
+
+#### Assignment 4 - add a column called dx to the dataframe and set all values to 0.  We'll use this in a moment.  Right now it's just gets you familiar with using Pandas notations.
+
+#### Assignment 5 - add columns for dx, dy, and dz.  These values should be calculated as the change in x,y,z from previous row in the data frame.
+Note:  This is harder! I found it easiest to write a for loop to itterate over the rows.  There is probably a more sophisticated way to do this, but keep it simple for now.
+
+#### Assignment 6 - use pandas.Dataframe.appy to caclulate the sum up dx,dy, and dz.
+This is a simple summation across three columns of the same row a dataframe.   Σ dx+dy+dz represents the overall magnitude of change the sensor recorded.
+
+#### Assignment 7 -  plot all the values as separate graphs (separate sub-plots)
+
+#### Assignment 8 - plot just the values of the Σ dx+dy+dz.  This seems interesting!
+
+#### Assignment 9 - display the values where  Σ dx+dy+dz is < 4.  This represents quiet period where the sensor data didn't change.
+note use pd.set_option('display.max_rows', 8000) to set the number of rows displayed in your dataframe to 8000.  This will let you scroll around and see the data.
+
+#### Assignment 10 - using slicing to examine just the rows between a quiet times.
+
+#### Assignment 11 - use slicing to look at the timestamp for the quiet times bounding periods of movement.
+
+#### Assignment 12 - use slicing to plot one of the periods of movement bounded by quiet times
+
+#### Assignment 13 - write a for  loop to iterate through all the periods of movement bounded by quiet times.  Call out any that are longer than just a few seconds.  Also plot them all on a graph.
+
+#### Assignment 14 - To cap things off write the new dataframe out to an excel spreadsheet using XlsxWriter.
+
+### Solution:
+My solution for this set of exercises is in a jupyter notebook in my [flask-pi-iot project](https://github.com/JohnFunkCode/flask-pi-iot/blob/master/flask-pi-iot.ipynb)
