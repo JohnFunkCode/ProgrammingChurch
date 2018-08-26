@@ -493,3 +493,20 @@ note use pd.set_option('display.max_rows', 8000) to set the number of rows displ
 
 ### Solution:
 My solution for this set of exercises is in a jupyter notebook in my [flask-pi-iot project](https://github.com/JohnFunkCode/flask-pi-iot/blob/master/flask-pi-iot.ipynb)
+
+## August 26th Session - Adding Pandas to your Flask-Pi-IOT code
+Last week we got comfortable with Pandas and running more sophisticated experiments Data Science style with Jupyter Notebook.   This week we're going to go back to our Flask-Pi-IOT app and put in a Pandas dataframe as the storage mechanism for the sensor data.
+
+#### Assignment 1 - Create a new module in your Flask-Pi-IOT project for storing sensor data.
+
+#### Assignment 2 - Using TDD methods create a new object to store the sensor data using a Pandas dataframe.
+This object should expose high-level domain methods to the outside world as part of it's API rather than exposing Pandas constructs.  Good examples include:
+* Add a reading
+* list readings
+* get reading for a given serial number
+* get readings for a given date / time range
+* etc.
+
+A great question to ask yourself is how will we render the list of readings as html and how  will we expose graphs?  Pandas provides a method for that, but how to you expose that in your API that other coders would use.
+
+#### Assingment 3 - Hook up your new module to the main flask-pi-iot project.
