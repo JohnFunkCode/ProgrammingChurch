@@ -515,7 +515,6 @@ A great question to ask yourself is how will we render the list of readings as h
 We've spent a few weeks working on our new approach of having more abstract data storage objects that use pandas dataframe to saving our IoT data.  Next we're going to add  functionality to write that data to an excel spreadsheet.  However, before we do that let's take a look at some current news from the security space that is relevant to topics we've been working on.
 
 ### Homework:
-We're going to take a sidebar looking into a current security topic, then we'll read the docs on how to save data:
 - Listen to [Episode 683 of the Security Now podcast](https://youtu.be/TWE4ylO-z8c?t=1476)
 At 23:35 minutes in Steve Gibson talks about a new report that shows that Python has risen to the status of the most popular language for hackers, as well as rising in general popularity.  Gibson sites an article from Imperva titled [The Worlds Most Popular Coding Language Happens to be Most Hacker's Weapon of Choice](https://www.imperva.com/blog/2018/09/the-worlds-most-popular-coding-language-happens-to-be-most-hackers-weapon-of-choice/) and also references an article from The Economist titled [Python is becoming the world’s most popular coding language](https://www.economist.com/graphic-detail/2018/07/26/python-is-becoming-the-worlds-most-popular-coding-language).  
 ![Ranking of programming languages](https://www.economist.com/sites/default/files/imagecache/640-width/20180728_WOC883.png "Ranking of Programming Languages")    
