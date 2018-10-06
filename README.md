@@ -538,9 +538,3 @@ Add code to your flask_pi_iot server to save it's data to an excel spreadsheet e
 To get ready to save data to Amazon S3  read the following material:
 - Read about how to use Amazon S3 by starting at: https://aws.amazon.com/s3/ and setup an account and do their [Store and Retrieve a File tutorial](https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/?trk=gs_card)
 - Read about how to use the [AWS SDK for Python Boto3](https://aws.amazon.com/sdk-for-python/) and particularly pay attention how to read and write data into a bucket.
-
-
-
-
-
-![Programming Church](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/ProgrammingChurch.jpeg "Shane, Megan, Katie, David")
