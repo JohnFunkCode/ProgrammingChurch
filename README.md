@@ -509,4 +509,38 @@ This object should expose high-level domain methods to the outside world as part
 
 A great question to ask yourself is how will we render the list of readings as html and how  will we expose graphs?  Pandas provides a method for that, but how to you expose that in your API that other coders would use.
 
-#### Assingment 3 - Hook up your new module to the main flask-pi-iot project.
+#### assignment 3 - Hook up your new module to the main flask-pi-iot project.
+
+## October 6th Session - Saving your data into an Excel spreadsheet
+We've spent a few weeks working on our new approach of having more abstract data storage objects that use pandas dataframe to saving our IoT data.  Next we're going to add  functionality to write that data to an excel spreadsheet.  However, before we do that let's take a look at some current news from the security space that is relevant to topics we've been working on.
+
+### Homework:
+We're going to take a sidebar looking into a current security topic, then we'll read the docs on how to save data:
+- Listen to [Episode 683 of the Security Now podcast](https://youtu.be/TWE4ylO-z8c?t=1476)
+At 23:35 minutes in Steve Gibson talks about a new report that shows that Python has risen to the status of the most popular language for hackers, as well as rising in general popularity.  Gibson sites an article from Imperva titled [The Worlds Most Popular Coding Language Happens to be Most Hacker's Weapon of Choice](https://www.imperva.com/blog/2018/09/the-worlds-most-popular-coding-language-happens-to-be-most-hackers-weapon-of-choice/) and also references an article from The Economist titled [Python is becoming the world’s most popular coding language](https://www.economist.com/graphic-detail/2018/07/26/python-is-becoming-the-worlds-most-popular-coding-language)
+![Ranking of programming languages]
+(https://www.economist.com/sites/default/files/imagecache/640-width/20180728_WOC883.png)  
+Gibson also discussed a [detailed anlysis of the  VPNFilter malware](https://blog.talosintelligence.com/2018/05/VPNFilter.html) and notes that the malware extracts an IP for the command and control server it will connect to from the EXIF image metadata from an image stored at Photobucket.  This is the technique my [iptc_info_ciper code](https://github.com/JohnFunkCode/iptc_info_ciper) that we discussed during our July 29th lesson on externalizing Config data.
+
+- Read the documentation on [Working with Python Pandas and XlsxWriter](https://xlsxwriter.readthedocs.io/working_with_pandas.html)
+
+### Coding assignments
+
+#### Assignment 1 - Save Pandas Dataframe to an Excel spreadsheet
+Use Jupyter notebook to write experimental code that creates a simple data frame and save it to an excel spreadsheet.
+
+#### Assignment 2 - Save your IoT data to an excel spreadsheet.
+Add code to your flask_pi_iot server to save it's data to an excel spreadsheet every 10,000 readings.
+
+## Next Session - Saving Data to Amazon S3 buckets
+
+### Homework:
+To get ready to save data to Amazon S3  read the following material:
+- Read about how to use Amazon S3 by starting at: https://aws.amazon.com/s3/ and setup an account and do their [Store and Retrieve a File tutorial](https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/?trk=gs_card)
+- Read about how to use the [AWS SDK for Python Boto3](https://aws.amazon.com/sdk-for-python/) and particularly pay attention how to read and write data into a bucket.
+
+
+
+
+
+![Programming Church](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/ProgrammingChurch.jpeg "Shane, Megan, Katie, David")
