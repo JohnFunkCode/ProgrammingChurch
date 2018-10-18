@@ -511,8 +511,8 @@ A great question to ask yourself is how will we render the list of readings as h
 
 #### assignment 3 - Hook up your new module to the main flask-pi-iot project.
 
-## October 6th Session - Saving your data into an Excel spreadsheet
-We've spent a few weeks working on our new approach of having more abstract data storage objects that use pandas dataframe to saving our IoT data.  Next we're going to add  functionality to write that data to an excel spreadsheet.  However, before we do that let's take a look at some current news from the security space that is relevant to topics we've been working on.
+## October 6th & 13 Session - Continue refining your flask-pi-iot project and it's new Pandas powered data layer.
+We'll continue to refine the flask-pi-iot project and the way it saves data into Pandas.   To cap this phase of work off, we'll also revisit the pi_client portion of the project, and make sure it's only posting data every second or two if the sensor doesn't detect motion.  However, before we do that let's take a look at some current news from the security space that is relevant to topics we've been working on.
 
 ### Homework:
 - Listen to [Episode 683 of the Security Now podcast](https://youtu.be/TWE4ylO-z8c?t=1476)
@@ -520,12 +520,19 @@ At 23:35 minutes in Steve Gibson talks about a new report that shows that Python
 ![Ranking of programming languages](https://www.economist.com/sites/default/files/imagecache/640-width/20180728_WOC883.png "Ranking of Programming Languages")    
 Gibson also discussed a [detailed anlysis of the  VPNFilter malware](https://blog.talosintelligence.com/2018/05/VPNFilter.html) and notes that the malware extracts an IP for the command and control server it will connect to from the EXIF image metadata from an image stored at Photobucket.  This is the technique my [iptc_info_ciper code](https://github.com/JohnFunkCode/iptc_info_ciper) that we discussed during our July 29th lesson on externalizing Config data.
 
+
+## October 21th Session - Saving your data into an Excel spreadsheet
+We've spent a few weeks working on our new approach of having more abstract data storage objects that use pandas dataframe to saving our IoT data and tightening up the pi_client.  Next we're going to add  functionality to write that data to an excel spreadsheet.  
+
 - Read the documentation on [Working with Python Pandas and XlsxWriter](https://xlsxwriter.readthedocs.io/working_with_pandas.html)
 
 ### Coding assignments
 
 #### Assignment 1 - Save Pandas Dataframe to an Excel spreadsheet
 Use Jupyter notebook to write experimental code that creates a simple data frame and save it to an excel spreadsheet.
+
+#### Solution
+A simple example is in my [PadasToExcel](https://github.com/JohnFunkCode/PandasToExcel) repo.
 
 #### Assignment 2 - Save your IoT data to an excel spreadsheet.
 Add code to your flask_pi_iot server to save it's data to an excel spreadsheet every 10,000 readings.
