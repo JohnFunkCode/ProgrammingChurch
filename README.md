@@ -543,3 +543,26 @@ Add code to your flask_pi_iot server to save it's data to an excel spreadsheet e
 To get ready to save data to Amazon S3  read the following material:
 - Read about how to use Amazon S3 by starting at: https://aws.amazon.com/s3/ and setup an account and do their [Store and Retrieve a File tutorial](https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/?trk=gs_card)
 - Read about how to use the [AWS SDK for Python Boto3](https://aws.amazon.com/sdk-for-python/) and particularly pay attention how to read and write data into a bucket.
+
+## December 9, 2018 - Winding up Direct File Access, Lets move on to SQL databases.
+Today we'll wrap up our work with writing our data to files, and move on begin to learn about SQL databases.  Before we leave this step we do need to get our code that writes to an S3 bucket running on Pivotal Cloud Foundry.
+
+#### Assignment 1 - Use a Cloud Foundry Service Broker to Connect to AWS
+The one additional change we need to make is to stop relying on the AWS api to provide the credentials for our code.  This binds us to our laptops and we don't want that.   Instead Pivotal Cloud Foundry uses a technique called Service Brokers to externalize all the configuration information needed to interact with external services like AWS S3.  There is a good document that explains service brokers at:  https://docs.pivotal.io/tiledev/2-2/stages.html.
+
+For our code we will simply use a **user provided service** that provides the S3 Bucket, the AWS access key, and the AWS secret key as environment variables to our app.  Rather than decoding the Cloud Foundry VCAP Servicesenvironmentt variables ourselves, we'll use the cfenv library at: https://pypi.org/project/cfenv/.  The best doc about the cfenv library is actually provided in the Node.js version of the library at: https://github.com/cloudfoundry-community/node-cfenv/
+
+If you want an example of how to use this library look at my example code at: https://github.com/JohnFunkCode/FlaskUploadToS3/blob/master/flask-s3-upload.py
+
+##### Exercise 1 - Make your Flask-PI-IOT app run on cloud foundry using a service broker for PCF.
+To do this you'll have to figure out where you want to get the bucket and credentials from the environment, and then you'll have to change the code that writes to the S3 bucket to pick up the data from the environment variables.   I suggest putting this all in the module that stores your data.   I also suggest using an if statement to decide if the VCAP services variable exists before using it.  If VCAP services isn't defined, you can assume you are running on your local machine and you can let the Boto3 library get the creds from it's default location.
+
+
+#### Assignment 2 - Begin your SQL Journey
+Before SQL databases were in reach of the average developer, I worked with what is known as an [ISAM Index Sequential Access Method and B-tree libraries](http://jcsites.juniata.edu/faculty/rhodes/dbms/iasm.htm) to store and retrieve data.  I essentially put myself through college writing systems using the Borland Turbo Pascal Database Toolkit.  Then the industry standardized on SQL databases and Oracle grew to dominance and all the worlds data got stored in SQL databases.   Now days alternatives have arrived called noSQL databases, but SQL databases are still a core concept you need to master to be a professional programmer now days.
+
+To begin our Journey into SQL databases, we'll make the most of the work from a great instructor Dr. Charles Severance from the university of Michigan and his course [Using Databases with Python](https://www.coursera.org/learn/python-databases) on Courcera.  We'll take the not-paid path through the material, and then if you want you can always go back and take the paid path to earn a certification.
+
+##### Exercise 3 - Sign up for the Coursera [Using Databases with Python](https://www.coursera.org/learn/python-databases) class and show me you can access the videos.
+
+##### Exercise 4 - download the [SQLLite Database Browser](https://sqlitebrowser.org/) and show me it's up and running on your machine.
