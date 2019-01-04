@@ -566,3 +566,16 @@ To begin our Journey into SQL databases, we'll make the most of the work from a 
 ##### Exercise 3 - Sign up for the Coursera [Using Databases with Python](https://www.coursera.org/learn/python-databases) class and show me you can access the videos.
 
 ##### Exercise 4 - download the [SQLLite Database Browser](https://sqlitebrowser.org/) and show me it's up and running on your machine.
+
+## January 6, 2019 - SQL Exercises
+Today we'll start a seriese of SQL exercises to help solidify what you learned in the Coursera [Using Databases with Python](https://www.coursera.org/learn/python-databases) class.  If you haven't started with it, please do that, Dr. Severance's lectures are better than what I would provide.
+
+#### Sidebar discussions - Determining What Platform you are on
+As a quick detour from time to time you need to figure out what operating system you are running on.   For example in our PiIoT project we want to know if we're running on the RaspberyPi or on Window.   There is a very simple way to do this
+```Python
+import platform
+print(platform.uname()system)
+```
+On Windows this returns 'Windows'
+On the RaspberyPi it returns 'Linux'
+Also there is a great example showing what the various platform modules return at https://github.com/easybuilders/easybuild/wiki/OS_flavor_name_version
