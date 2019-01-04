@@ -576,6 +576,7 @@ As a quick detour from time to time you need to figure out what operating system
 import platform
 print(platform.uname()system)
 ```
-On Windows this returns 'Windows'
-On the RaspberyPi it returns 'Linux'
-Also there is a great example showing what the various platform modules return at https://github.com/easybuilders/easybuild/wiki/OS_flavor_name_version
+- On Windows this returns *'Windows'*
+- On the RaspberyPi it returns *'Linux'*
+
+There is a great example showing what the various platform modules return at https://github.com/easybuilders/easybuild/wiki/OS_flavor_name_version
