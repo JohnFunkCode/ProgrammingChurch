@@ -567,7 +567,7 @@ To begin our Journey into SQL databases, we'll make the most of the work from a 
 
 ##### Exercise 4 - download the [SQLLite Database Browser](https://sqlitebrowser.org/) and show me it's up and running on your machine.
 
-## January 6, 2019 - SQL Exercises
+## January 13, 2019 - SQL Exercises
 Today we'll start a seriese of SQL exercises to help solidify what you learned in the Coursera [Using Databases with Python](https://www.coursera.org/learn/python-databases) class.  If you haven't started with it, please do that, Dr. Severance's lectures are better than what I would provide.
 
 #### Sidebar discussions - Determining What Platform you are on
@@ -578,5 +578,14 @@ print(platform.uname()system)
 ```
 - On Windows this returns *'Windows'*
 - On the RaspberyPi it returns *'Linux'*
+- On the iPhone with Pythonista it returns *'Darwin'*
 
 There is a great example showing what the various platform modules return at https://github.com/easybuilders/easybuild/wiki/OS_flavor_name_version
+
+#### Sidebar discussion - Critical SQLite Flaw Leaves Millions of Apps Vulnerable to Hackers
+The [December 18th Security Now 694 podcast](https://twit.tv/shows/security-now/episodes/694?autostart=false) alerted me to a critical SQLlite vulnerability.  There is a great discussion of the problem in [Episode 694 starting at time code 1:48:00](https://youtu.be/De1R5ay4eWM).  Please go listen to it and run the following commands in a command prompt on your windows machine before we meet.
+
+```shell
+cd /
+dir /s sqllite*.dll
+```
