@@ -589,3 +589,37 @@ The [December 18th Security Now 694 podcast](https://twit.tv/shows/security-now/
 cd /
 dir /s sqllite*.dll
 ```
+
+### Starting with SQLLite DB browser
+#### Create a table with pets and owners tables
+- populate both tables
+- do a bunch of queries
+- owners and their dogs
+- dog and their owners
+- owners with no dogs
+- dogs with no owners
+- dogs oned by people using a group by clause
+
+##### Jupiter Notebook Experiments with SQLite
+###### Simple stuff
+- Connect to SQLite
+- run dogs and people queries
+
+###### Iot Project Experiments
+- create an iot table
+- insert readings
+- run a query to show all readings
+- run a query to show all readings by date
+- create a table with Raspberry Pi Serial Number and name
+- create a query to show all reading by person's name
+
+##### PI IoT Project Work
+- Write code to put data into a SQL table
+- make sure it works with your live PI client
+- *sidebar include code in your client to detect what platform it's on*
+
+##### Move it to PCF
+- first lets move all our PCF work into the ProgrammingChurch org that I manage rather than your own personal org.
+- provision a mySQL service
+- setup a service broker
+- make the code adjustments needed to adapt your code to mySQL
