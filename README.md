@@ -595,16 +595,35 @@ These may take several sessions.  We'll see how things go.
 #### Create a table with pets and owners tables
 - populate both tables
 - do a bunch of queries
-- owners and their dogs
-- dog and their owners
-- owners with no dogs
-- dogs with no owners
-- dogs oned by people using a group by clause
+- owners and their pets
+- pets and their owners
+- owners with no pets
+- pets with no owners
+- show the number of pet owned by people using a group by clause
+
+```SQL
+--People and their dogs
+select people.first_name, pets.pet_name from people,pets where people.person_id = pets.owner_id ;
+-- People with no dogs
+select people.first_name from people where people.person_id not in (select pets.owner_id from pets);
+-- or
+select a.first_name
+ from people a
+ left join pets b
+ on (a.person_id = b.owner_id)
+ where b.owner_id is NULL ;
+-- Pets with no owner
+ select pets.pet_name from pets where pets.owner_id not in (select people.person_id from people) ;
+-- use group by to count the number of pets an owner has
+select people.first_name, count(pets.pet_name) from people,pets where people.person_id = pets.owner_id group by pets.owner_id ;
+```
 
 ##### Jupiter Notebook Experiments with SQLite
 ###### Simple stuff
 - Connect to SQLite
 - run dogs and people queries
+
+Examples can be found in my [SQLiteExperiments](https://github.com/JohnFunkCode/SQLiteExperiments) repo
 
 ###### Iot Project Experiments
 - create an iot table
@@ -619,7 +638,7 @@ These may take several sessions.  We'll see how things go.
 - make sure it works with your live PI client
 - *sidebar include code in your client to detect what platform it's on*
 
-##### Move it to PCF
+##### Move it to PCF (next week)
 - first lets move all our PCF work into the ProgrammingChurch org that I manage rather than your own personal org.
 - provision a mySQL service
 - setup a service broker
