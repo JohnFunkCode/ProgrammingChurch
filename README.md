@@ -592,15 +592,19 @@ dir /s sqllite*.dll
 ## SQL Exercises
 These may take several sessions.  We'll see how things go.
 ### Starting with SQLLite DB browser
-#### Create a table with pets and owners tables
-- populate both tables
-- do a bunch of queries
+#### Create a table with pets and owners tables and do a bunch of sql to get comfortable.  Here are the tasks to perform:
+- populate both tables via the sqlite db browser's browse data tab
+- do a few of queries to make sure you know how things work
 - owners and their pets
 - pets and their owners
 - owners with no pets
 - pets with no owners
 - show the number of pet owned by people using a group by clause
+ - Insert a person with a sql statements
+ - Insert a pet with a sql statement using a hard coded person id
+ - Insert a person and a pet in one transaction
 
+#### Answers:
 ```SQL
 --People and their dogs
 select people.first_name, pets.pet_name from people,pets where people.person_id = pets.owner_id ;
@@ -613,15 +617,25 @@ select a.first_name
  on (a.person_id = b.owner_id)
  where b.owner_id is NULL ;
 -- Pets with no owner
- select pets.pet_name from pets where pets.owner_id not in (select people.person_id from people) ;
+select pets.pet_name from pets where pets.owner_id not in (select people.person_id from people) ;
 -- use group by to count the number of pets an owner has
 select people.first_name, count(pets.pet_name) from people,pets where people.person_id = pets.owner_id group by pets.owner_id ;
+-- Insert a person
+insert into people (first_name, last_name) values ( 'Katie','Brown');
+-- Insert a pet with a hard coded person id
+insert into pets (pet_name, owner_id) values ( 'Pickle',4 ) ;
+-- But how can we insert a person and a pet at one time use the last_insert_rowid() function and a transaction
+begin transaction ;
+insert into people (first_name, last_name) values ( 'Shane','Cornell');
+select last_insert_rowid();
+insert into pets (pet_name, owner_id) values ( 'Mr. Wiggles',last_insert_rowid() ) ;
+commit ;
 ```
 
 ##### Jupiter Notebook Experiments with SQLite
 ###### Simple stuff
 - Connect to SQLite
-- run dogs and people queries
+- run pets and people queries
 
 Examples can be found in my [SQLiteExperiments](https://github.com/JohnFunkCode/SQLiteExperiments) repo
 
