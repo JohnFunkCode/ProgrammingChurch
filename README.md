@@ -589,7 +589,8 @@ The [December 18th Security Now 694 podcast](https://twit.tv/shows/security-now/
 cd /
 dir /s sqllite*.dll
 ```
-
+## SQL Exercises
+These may take several sessions.  We'll see how things go.
 ### Starting with SQLLite DB browser
 #### Create a table with pets and owners tables
 - populate both tables
