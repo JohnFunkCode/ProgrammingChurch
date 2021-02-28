@@ -1,7 +1,7 @@
 ﻿# Programming Church
 This repo contains a bunch of lesson started in January 2018 for a little band of *'engineers from other disciplines'* (including my nieces) to learn software development and hardware device control using Python and Raspberry Pi
 
-![Programming Church](https://github.com/JohnFunkCode/niece-python-lessons/blob/master/ProgrammingChurch.jpeg "Shane, Megan, Katie, David")
+![Programming Church](ProgrammingChurch.jpeg "Shane, Megan, Katie, David")
 
 
 ## Tools used:
